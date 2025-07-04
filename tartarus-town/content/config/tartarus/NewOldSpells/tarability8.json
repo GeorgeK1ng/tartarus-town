@@ -74,7 +74,7 @@
 			"description": "{Ice Shield}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 10,
 				"battleEffects":{
 					"obstacle":{
@@ -95,7 +95,7 @@
 			"description": "{Ice Shield}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 10,
 				"battleEffects":{
 					"obstacle":{
@@ -116,7 +116,7 @@
 			"description": "{Ice Shield}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 10,
 				"battleEffects":{
 					"obstacle":{
@@ -137,7 +137,7 @@
 			"description": "{Ice Shield}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 10,
 				"battleEffects":{
 					"obstacle":{
@@ -153,8 +153,7 @@
 						}
 					}
 				}
-			
 			}
 		}
 	}
-	}
+}

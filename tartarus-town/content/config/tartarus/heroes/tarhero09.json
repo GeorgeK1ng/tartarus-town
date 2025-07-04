@@ -10,7 +10,7 @@
 			"biography" : "Erica never suppose she has the relevance of any demons. However, she chased a powerful demon and follow him to a deeper cave during her adventure process. Finally she eliminated the demon but she was attracted by frozen atmosphere. Now she don't think she can leave the abyss any longer.",
 			"specialty" :
 			{
-				"description" : "{Ice Bolt}\r\n\r\nCasts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.).",
+				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.).",
 				"tooltip" : "Spell bonus: Ice Bolt",
 				"name" : "Ice Bolt"
 			}
@@ -64,7 +64,7 @@
 				"iceBolt" :	{
 					"type": "SPECIAL_SPELL_LEV",
 					"subtype": "spell.iceBolt",
-					"addInfo": 5
+					"val": 5
 				}
 			}
 		}

@@ -44,7 +44,7 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
@@ -59,7 +59,7 @@
 	 
 				"effects" : {
 					"notActive" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NOT_ACTIVE",
 						"subtype" : "spell.stoneGaze",
 						"duration" : [
@@ -68,7 +68,7 @@
 						]
 					},
 					"noRetaliation" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
@@ -95,7 +95,7 @@
 	 
 				"effects" : {
 					"notActive" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NOT_ACTIVE",
 						"subtype" : "spell.stoneGaze",
 						"duration" : [
@@ -104,7 +104,7 @@
 						]
 					},
 					"noRetaliation" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
@@ -131,7 +131,7 @@
 	 
 				"effects" : {
 					"notActive" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NOT_ACTIVE",
 						"subtype" : "spell.stoneGaze",
 						"duration" : [
@@ -140,7 +140,7 @@
 						]
 					},
 					"noRetaliation" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
@@ -167,7 +167,7 @@
 	 
 				"effects" : {
 					"notActive" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NOT_ACTIVE",
 						"subtype" : "spell.stoneGaze",
 						"duration" : [
@@ -176,7 +176,7 @@
 						]
 					},
 					"noRetaliation" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
@@ -197,5 +197,4 @@
 			}
 		}
 	}
- 
 }

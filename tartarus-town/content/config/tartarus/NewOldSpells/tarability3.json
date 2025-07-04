@@ -50,7 +50,7 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
@@ -74,7 +74,7 @@
 						]
 					},
 					"noRetaliation" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
@@ -100,7 +100,7 @@
 						]
 					},
 					"noRetaliation" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
@@ -126,7 +126,7 @@
 						]
 					},
 					"noRetaliation" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
@@ -152,7 +152,7 @@
 						]
 					},
 					"noRetaliation" : {
-						"val" : 0,
+//						"val" : 0,
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",

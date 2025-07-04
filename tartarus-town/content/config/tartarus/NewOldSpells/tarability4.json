@@ -50,7 +50,7 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
@@ -66,7 +66,7 @@
 				"effects":
 				{
 					"stacksSpeed" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : -20,
 						"valueType" : "PERCENT_TO_ALL",
@@ -83,7 +83,7 @@
 				"effects":
 				{
 					"stacksSpeed" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : -20,
 						"valueType" : "PERCENT_TO_ALL",
@@ -100,7 +100,7 @@
 				"effects":
 				{
 					"stacksSpeed" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : -30,
 						"valueType" : "PERCENT_TO_ALL",
@@ -116,7 +116,7 @@
 				"effects":
 				{
 					"stacksSpeed" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : -30,
 						"valueType" : "PERCENT_TO_ALL",

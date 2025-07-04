@@ -10,7 +10,7 @@
 			"biography" : "Among freegans, Gernax was known as not a very smart leader, but many demons respect him for his impressive size and sense of humor (of course, understandable only to other freegans). On the battlefield, the unusual behavior of Gernax and the huge size of this demon demoralize opponents.",
 			"specialty" :
 			{
-				"description" : "{-1 Morale}\r\n\r\nGive -1 Morale to Enemy's troop.",
+				"description" : "Give -1 Morale to Enemy's troop.",
 				"tooltip" : "-1 Morale",
 				"name" : "-1 Morale"
 			}

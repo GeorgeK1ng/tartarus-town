@@ -29,8 +29,7 @@
 			"allOf" : {},
 			"anyOf" : {},			
 			"noneOf" : {
-				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal"
-
+//				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal"
 			}
 	}, 
  
@@ -58,7 +57,7 @@
 		{
 			"base":
 			{
-				"aiValue": 25,
+//				"aiValue": 25,
 				"range": "0,1",
 				"battleEffects" : {
 					"directDamage" : {

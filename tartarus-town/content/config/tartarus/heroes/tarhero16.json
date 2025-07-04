@@ -10,7 +10,7 @@
 			"biography" : "Krigans love experiments. In Sixiasil combined two incompatible magical powers - earth and air. Surprisingly, she survived, although she complains that she is sometimes torn apart. In addition, Sixiasil has gained the ability to suck magic out of anything - she needs a regular influx of mana so that the forces do not break her.",
 			"specialty" :
 			{
-				"description" : "{-2 Spell Cost}\r\n\r\nReduce Spell Cost by 2.",
+				"description" : "Reduce Spell Cost by 2.",
 				"tooltip" : "Spell bonus: Blind",
 				"name" : "-2 Spell Cost"
 			}

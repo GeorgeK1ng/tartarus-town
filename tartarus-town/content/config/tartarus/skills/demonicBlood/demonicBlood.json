@@ -5,6 +5,7 @@
 			"might" : 0,
 			"magic" : 0
 		},
+		"specialty" : [], // generic specialty not applicable
 		"base" : {
 			"effects" : {
 			"main":{
@@ -19,7 +20,8 @@
 			"images" : {
 				"small" : "tartarus/skills/demonicBlood/taSkillBS",
 				"medium" : "tartarus/skills/demonicBlood/taSkillBM",
-				"large" : "tartarus/skills/demonicBlood/taSkillBL"
+				"large" : "tartarus/skills/demonicBlood/taSkillBL",
+				"scenarioBonus" : "tartarus/scenarioBonuses/bonusBlank.png"
 			},
 			"description" : "{Basic Demonic Blood}\n\nBasic Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 1 during battle.",
 			"effects" : {
@@ -35,7 +37,8 @@
 			"images" : {
 				"small" : "tartarus/skills/demonicBlood/taSkillAS",
 				"medium" : "tartarus/skills/demonicBlood/taSkillAM",
-				"large" : "tartarus/skills/demonicBlood/taSkillAL"
+				"large" : "tartarus/skills/demonicBlood/taSkillAL",
+				"scenarioBonus" : "tartarus/scenarioBonuses/bonusBlank.png"
 			},
 			"description" : "{Advanced Demonic Blood}\n\nAdvanced Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 2,speed by 1 during battle.",
 			"effects" : {
@@ -51,7 +54,8 @@
 			"images" : {
 				"small" : "tartarus/skills/demonicBlood/taSkillES",
 				"medium" : "tartarus/skills/demonicBlood/taSkillEM",
-				"large" : "tartarus/skills/demonicBlood/taSkillEL"
+				"large" : "tartarus/skills/demonicBlood/taSkillEL",
+				"scenarioBonus" : "tartarus/scenarioBonuses/bonusBlank.png"
 			},
 			"description" : "{Expert Demonic Blood}\n\nExpert Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 4,speed by 2 during battle.",
 			"effects" : {

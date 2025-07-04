@@ -10,7 +10,7 @@
 			"biography" : "The brave northern warrior Tasabu once sent his troops to storm the Freegan citadels. As a result, his army was defeated, and the barbarian himself was captured. The demons processed Tasab's mind a bit and since then he has served them faithfully, helping them fight in unusual conditions for freegans.",
 			"specialty" :
 			{
-				"description" : "{Logistics}\r\n\r\nGive 5% extra bonus per level to Logistics skill.",
+				"description" : "Give 5% extra bonus per level to Logistics skill.",
 				"tooltip" : "Skill bonus: Logistics",
 				"name" : "Logistics"
 			}

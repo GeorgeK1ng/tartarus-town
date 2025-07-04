@@ -10,7 +10,7 @@
 			"biography" : "Knowing the weaknesses of the enemy and striking at the most unexpected moments is Drazz's favorite tactic. He is one of the smartest demons who thinks it is unwise to lose warriors where it can be avoided. Drazz has a lot of enemies among the generals who have ever resisted him and managed to survive. They find his tactics dirty.",
 			"specialty" :
 			{
-				"description" : "{Intelligence}\r\n\r\nGive 5% extra bonus per level to Intelligence skill.",
+				"description" : "Give 5% extra bonus per level to Intelligence skill.",
 				"tooltip" : "Skill bonus: Intelligence",
 				"name" : "Intelligence"
 			}

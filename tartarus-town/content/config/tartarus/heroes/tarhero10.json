@@ -10,7 +10,7 @@
 			"biography" : "One of the first freegans to find and tame ice demons was Raldaxa. She alone knows where the demons found such creatures. Raldaxa has studied these creatures very well and is able to motivate them better than other freegans. She also wrote an extensive work on the selection of ice demons and their relationship with other species, which she is very proud of.",
 			"specialty" :
 			{
-				"description" : "{Frost Creepers}\r\n\r\nIncreases the Attack and Defense skills of any Frost Creepers or Frost Horrors she commands for each level attainded after 4th level.",
+				"description" : "Increases the Attack and Defense skills of any Frost Creepers or Frost Horrors she commands for each level attainded after 4th level.",
 				"tooltip" : "Creature bonus: Frost Creepers",
 				"name" : "Frost Creepers"
 			}

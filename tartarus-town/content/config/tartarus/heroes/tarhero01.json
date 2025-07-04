@@ -10,7 +10,7 @@
 			"biography" : "Young, by the standards of freegan, demon Tarox has a very carefree disposition. First of all, he cares about his own prosperity and idle pleasures. It is not surprising that the small younger demons are drawn to Tarox and form his main retinue.",
 			"specialty" :
 			{
-				"description" : "{Ice Spawn}\r\n\r\nIncreases the Attack and Defense skills of any Ice Spawns or Quasits he commands for each level attainded after 1st level.",
+				"description" : "Increases the Attack and Defense skills of any Ice Spawns or Quasits he commands for each level attainded after 1st level.",
 				"tooltip" : "Creature bonus: Ice Spawn",
 				"name" : "Ice Spawns"
 			}

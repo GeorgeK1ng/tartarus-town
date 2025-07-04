@@ -10,7 +10,7 @@
 			"biography" : "The real name of this freeman is already firmly forgotten. Blizzard was not a very strong physical demon, but all her offenders very quickly turned into ice statues from one touch. For this she received her nickname. Now Blizzard enchants the weapons of her warriors, so that they also turn into ice opponents of freegans.",
 			"specialty" :
 			{
-				"description" : "{Ice Meteor}\r\n\r\nCasts Ice Meteor with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"description" : "Casts Ice Meteor with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"tooltip" : "Spell bonus: Ice Meteor",
 				"name" : "Ice Meteor"
 			}

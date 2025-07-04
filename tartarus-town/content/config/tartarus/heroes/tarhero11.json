@@ -10,7 +10,7 @@
 			"biography" : "Among the furies, few people are able to master the art of the navigator. But Moridda is an exception. Breldzur himself noticed the gift of furies and advised her to seriously engage in this craft. Now Moridda is one of the most respected furies and more or less a good developer. Other furies envy her, but do not risk saying it - do not want to become a new icy masterpiece.",
 			"specialty" :
 			{
-				"description" : "{Furies}\r\n\r\nIncreases the Attack and Defense skills of any Furies or Stygain Furies she commands for each level attainded after 3th level.",
+				"description" : "Increases the Attack and Defense skills of any Furies or Stygain Furies she commands for each level attainded after 3th level.",
 				"tooltip" : "Creature bonus: Furries",
 				"name" : "Furies"
 			}

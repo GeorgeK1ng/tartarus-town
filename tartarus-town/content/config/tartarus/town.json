@@ -381,7 +381,7 @@
 					"mode" : "grail",
 					"bonuses": [
 						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.attack", "val": 10 },
-						{ "type": "STACKS_SPEED", "val": 1, "propagator": "PLAYER_PROPAGATOR" } 						
+						{ "type": "STACKS_SPEED", "val": 1, "propagator": "PLAYER" } 						
 					]
 				},
 				"dwellingLvl1" :

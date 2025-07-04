@@ -10,7 +10,7 @@
 			"biography" : "Breldzur is one of the most respected freegans. He is famous for the fact that he is able to make a work of art from the most unsightly ice. Even fellow Krigans admire Breldzur's talent. In war, this demon has a huge amount of working material, so that he can do what he loves without stopping.",
 			"specialty" :
 			{
-				"description" : "{Demonic Blood}\r\n\r\nCast an extra basic demonic blood at the beginning of battle.",
+				"description" : "Cast an extra basic demonic blood at the beginning of battle.",
 				"tooltip" : "Opening battle spell: Demonic Blood",
 				"name" : "Demonic Blood"
 			}

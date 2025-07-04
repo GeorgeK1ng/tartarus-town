@@ -3,9 +3,10 @@
 	"description" : "Tartarus is a town for ice demons, released in January 2022. This town is released with the dedicated map 'People mostly dies in winter'.",
 	"author" : "FF Team, mod : Turbanellos (Ben YAN)",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.42",
+	"version" : "1.43",
 	"changelog" :
 	{
+		"1.43"	 : [ "Update to vcmi-1.7 format" ],
 		"1.42"	 : [ "Fix Grail not to produce gold" ],
 		"1.41"	 : [ "Update to vcmi-1.6 format" ],
 		"1.40"	 : [ "Enabled Bloody Tower creature bank.", "Updated PL and RU translations" ],
@@ -28,7 +29,7 @@
 	},
 	"compatibility" :
 	{
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},
 	"modType" : "Town",
     	"chinese" : {

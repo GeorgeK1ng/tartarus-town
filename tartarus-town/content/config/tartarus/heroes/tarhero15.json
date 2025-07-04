@@ -10,7 +10,7 @@
 			"biography" : "Many women are primarily concerned with how to preserve their beauty. The young sorceress Iollona also once asked this question. The girl found a way to keep her body young with the help of cold, but something messed up with charms and now can not live long without a low temperature. For decades of loneliness in the ice cave, Iolona's mind was completely clouded and she decided to take revenge on all mankind by joining her 'brothers' freegans.",
 			"specialty" :
 			{
-				"description" : "{Resistance}\r\n\r\nGive 5% extra bonus per level to Resistance skill.",
+				"description" : "Give 5% extra bonus per level to Resistance skill.",
 				"tooltip" : "Skill bonus: Resistance",
 				"name" : "Resistance"
 			}

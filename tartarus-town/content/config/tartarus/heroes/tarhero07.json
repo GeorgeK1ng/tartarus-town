@@ -10,7 +10,7 @@
 			"biography" : "It is said that once it was an elf thief. But now it is a unique intelligent ice golem obtained during a magical experiment. Coldron is able to speak and make decisions on his own, but he remembers nothing about his past life and is therefore immensely devoted to freegans.",
 			"specialty" :
 			{
-				"description" : "{Ice Golems}\r\n\r\nIncreases the Attack and Defense skills of any Ice Golems or Frost Golems he commands for each level attainded after 2th level.",
+				"description" : "Increases the Attack and Defense skills of any Ice Golems or Frost Golems he commands for each level attainded after 2th level.",
 				"tooltip" : "Creature bonus: Ice Golems",
 				"name" : "Ice Golems"
 			}

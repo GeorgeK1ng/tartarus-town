@@ -58,7 +58,7 @@
 				"description": " ",
 	 
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 1
 	 
 			},
@@ -67,7 +67,7 @@
 				"description": " ",
 	 
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 1
 	 
 			},
@@ -76,7 +76,7 @@
 				"description": " ",
 	 
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 1
 	 
 			},
@@ -85,7 +85,7 @@
 				"description": " ",
 	 
 				"cost": 0,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"power": 1,
 				"range": "X"
 	 
