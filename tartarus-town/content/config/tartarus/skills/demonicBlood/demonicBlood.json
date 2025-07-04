@@ -63,7 +63,7 @@
 				"subtype" : "spell.tartskill3",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 255,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "BASE_NUMBER"	
 				}
 			}
 		}
