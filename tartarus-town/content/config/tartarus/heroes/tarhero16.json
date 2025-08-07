@@ -1,36 +1,30 @@
 {
-	"tarhero16" :
-	{
-    "class": "taHeroM",
-    "female" : true,
-		
-		"texts" :
-		{
+	"tarhero16" : {
+		"class" : "taHeroM",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Sixiasil",
 			"biography" : "Krigans love experiments. In Sixiasil combined two incompatible magical powers - earth and air. Surprisingly, she survived, although she complains that she is sometimes torn apart. In addition, Sixiasil has gained the ability to suck magic out of anything - she needs a regular influx of mana so that the forces do not break her.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Reduce Spell Cost by 2.",
 				"tooltip" : "Spell bonus: Reduce cost",
 				"name" : "-2 Spell Cost"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtyLarge" : "tartarus/heroes/tarhero16/skill16.bmp",
 			"specialtySmall" : "tartarus/heroes/tarhero16/skills16.bmp",
 			"large" : "tartarus/heroes/tarhero16/tarH16.bmp",
 			"small" : "tartarus/heroes/tarhero16/tarH16S.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"teleport"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "tartarc1",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,16 +51,14 @@
 				"skill" : "airMagic"
 			}
 		],
-		
+
 		"specialty" : {
-		"bonuses" : {
-			"reduceSpellCost" : 
-			{
-				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
-				"val" :  2
+			"bonuses" : {
+				"reduceSpellCost" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+					"val" : 2
+				}
 			}
 		}
 	}
-	}
 }
-

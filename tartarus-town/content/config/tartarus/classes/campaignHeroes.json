@@ -1,11 +1,10 @@
 {
-	"core:ignatius":
-	{
+	"core:ignatius" : {
 		"specialty" : {
 			"base" : {
 				"limiters" : [
 					{
-						"creature" : "tartarc1", 
+						"creature" : "tartarc1",
 						"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
@@ -19,8 +18,7 @@
 			}
 		}
 	},
-	"core:xeron":
-	{
+	"core:xeron" : {
 		"specialty" : {
 			"creature" : "tartarcc"
 		}

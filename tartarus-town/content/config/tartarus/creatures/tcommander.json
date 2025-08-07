@@ -1,47 +1,40 @@
 {
-	"tcommander":
-	{
-		"name" :
-		{
+	"tcommander" : {
+		"name" : {
 			"plural" : "Ice Mages",
 			"singular" : "Ice Mage"
 		},
 		"special" : true,
 		"faction" : "tartarus",
-    "advMapAmount": {
- "max" : 25,
- "min" : 16
-    },
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
+		},
 		"aiValue" : 156,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
 		"defense" : 5,
-    "cost": {
-      "gold": 1500
-    },
+		"cost" : {
+			"gold" : 1500
+		},
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "tartarus/battle/creatures/tcommander.def",
 			"iconSmall" : "tartarus/iconsSmall/creatures/tcommander.bmp",
 			"iconLarge" : "tartarus/iconsBig/creatures/tcommander.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX.def",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 37,
 					"upperY" : -98,
 					"middleX" : 62,
@@ -49,53 +42,58 @@
 					"lowerX" : 28,
 					"lowerY" : 3
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 9,
 		"hitPoints" : 40,
 		"level" : 0,
 		"shots" : 24,
-		"sound" :
-		{
-			"attack": "ENCHATTK.wav",
-			"defend": "ENCHDFND.wav",
-			"killed": "ENCHKILL.wav",
-			"move": "ENCHMOVE.wav",
-			"shoot": "ENCHSHOT.wav",
-			"wince": "ENCHWNCE.wav"
- 		},
+		"sound" : {
+			"attack" : "ENCHATTK.wav",
+			"defend" : "ENCHDFND.wav",
+			"killed" : "ENCHKILL.wav",
+			"move" : "ENCHMOVE.wav",
+			"shoot" : "ENCHSHOT.wav",
+			"wince" : "ENCHWNCE.wav"
+		},
 		"speed" : 4,
-		"abilities" :
-		{
-		    "magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "bloodlust",
 				"val" : 3
 			}
-	    }
+		}
 	}
 }

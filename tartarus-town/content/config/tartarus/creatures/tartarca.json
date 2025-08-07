@@ -1,103 +1,150 @@
 {
-  "tartarca": {
-    "name": {
-      "plural": "Ice Demons",
-      "singular": "Ice Demon"
-    },
-    "advMapAmount": {
- "max" : 12,
- "min" : 5
-    },
-    "faction": "tartarus",
-	"doubleWide" : true,
-    "aiValue": 1438,
-    "attack": 16,
-    "cost": {
-      "gold": 850
-    },
-    "damage": {
- "max" : 20,
- "min" : 16
-    },
-    "defense": 15,
-    "fightValue": 1255,
-    "graphics": {
-      "animation": "tartarus/battle/creatures/Tar6.def",
-      "map": "tartarus/map/creatures/AVWTAR06.def",
-      "iconSmall": "tartarus/iconsSmall/creatures/Tar6iconS.bmp",
-      "iconLarge": "tartarus/iconsBig/creatures/T6icon.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.50,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "growth": 2,
-    "hitPoints": 80,
-    "level": 6,
-    "upgrades": [
-      "tartarcab"
-    ],
-    "sound": {
-      "attack": "tartarus/TAR6ATTK.wav",
-      "defend": "tartarus/TAR6DFND.wav",
-      "killed": "tartarus/TAR6KILL.wav",
-      "move": "tartarus/TAR6MOVE.wav",
-      "wince": "tartarus/TAR6WNCE.wav"
-    },
-    "speed": 7,
-    "abilities": {
-       "immuneToWater" :
-			{
+	"tartarca" : {
+		"name" : {
+			"plural" : "Ice Demons",
+			"singular" : "Ice Demon"
+		},
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
+		},
+		"faction" : "tartarus",
+		"doubleWide" : true,
+		"aiValue" : 1438,
+		"attack" : 16,
+		"cost" : {
+			"gold" : 850
+		},
+		"damage" : {
+			"max" : 20,
+			"min" : 16
+		},
+		"defense" : 15,
+		"fightValue" : 1255,
+		"graphics" : {
+			"animation" : "tartarus/battle/creatures/Tar6.def",
+			"map" : "tartarus/map/creatures/AVWTAR06.def",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar6iconS.bmp",
+			"iconLarge" : "tartarus/iconsBig/creatures/T6icon.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.5,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+		"level" : 6,
+		"upgrades" : [
+			"tartarcab"
+		],
+		"sound" : {
+			"attack" : "tartarus/TAR6ATTK.wav",
+			"defend" : "tartarus/TAR6DFND.wav",
+			"killed" : "tartarus/TAR6KILL.wav",
+			"move" : "tartarus/TAR6MOVE.wav",
+			"wince" : "tartarus/TAR6WNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" : {
+			"immuneToWater" : {
 				"subtype" : "water",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			}
-
-    },
-    "stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
-}	
+	}
 }

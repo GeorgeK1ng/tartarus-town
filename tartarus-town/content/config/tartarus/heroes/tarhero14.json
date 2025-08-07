@@ -1,36 +1,30 @@
 {
-	"tarhero14" :
-	{
-    "class": "taHeroM",
-    "female" : false,
-		
-		"texts" :
-		{
+	"tarhero14" : {
+		"class" : "taHeroM",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Drazz",
 			"biography" : "Knowing the weaknesses of the enemy and striking at the most unexpected moments is Drazz's favorite tactic. He is one of the smartest demons who thinks it is unwise to lose warriors where it can be avoided. Drazz has a lot of enemies among the generals who have ever resisted him and managed to survive. They find his tactics dirty.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Give 5% extra bonus per level to Intelligence skill.",
 				"tooltip" : "Skill bonus: Intelligence",
 				"name" : "Intelligence"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtyLarge" : "tartarus/heroes/tarhero08/skill8.bmp",
 			"specialtySmall" : "tartarus/heroes/tarhero08/skills8.bmp",
 			"large" : "tartarus/heroes/tarhero08/tarH8.bmp",
 			"small" : "tartarus/heroes/tarhero08/tarH8S.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"protectWater"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "tartarc1",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,11 +51,9 @@
 				"skill" : "intelligence"
 			}
 		],
-		
+
 		"specialty" : {
-			"secondary" : "intelligence" 
+			"secondary" : "intelligence"
 		}
 	}
 }
-
-

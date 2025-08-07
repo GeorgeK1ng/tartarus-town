@@ -1,134 +1,213 @@
 {
-  "tartarc8": {
-    "name": {
-      "plural": "Frost Horrors",
-      "singular": "Frost Horror"
-    },
-    "advMapAmount": {
- "max" : 16,
- "min" : 10
-    },
-    "faction": "tartarus",
-    "aiValue": 586,
-    "attack": 10,
-    "cost": {
-      "gold": 350
-    },
-    "damage": {
- "max" : 9,
- "min" : 7
-    },
-    "defense": 12,
-    "fightValue": 563,
-    "graphics": {
-      "animation": "tartarus/battle/creatures/Tar4up.def",
-      "map": "tartarus/map/creatures/AVWTARU4.def",
-      "iconSmall": "tartarus/iconsSmall/creatures/Tar4uiconS.bmp",
-      "iconLarge": "tartarus/iconsBig/creatures/T4uicon.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.50,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "growth": 4,
-    "hitPoints": 30,
-    "level": 4,
-    "sound": {
-      "attack": "tartarus/TAR4ATTK.wav",
-      "defend": "tartarus/TAR4DFND.wav",
-      "killed": "tartarus/TAR4KILL.wav",
-      "move": "tartarus/TAR4MOVE.wav",
-      "wince": "tartarus/TAR4WNCE.wav"
-    },
-    "speed": 6,
-    "abilities": {
-       "immuneToWater" :
-			{
+	"tartarc8" : {
+		"name" : {
+			"plural" : "Frost Horrors",
+			"singular" : "Frost Horror"
+		},
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "tartarus",
+		"aiValue" : 586,
+		"attack" : 10,
+		"cost" : {
+			"gold" : 350
+		},
+		"damage" : {
+			"max" : 9,
+			"min" : 7
+		},
+		"defense" : 12,
+		"fightValue" : 563,
+		"graphics" : {
+			"animation" : "tartarus/battle/creatures/Tar4up.def",
+			"map" : "tartarus/map/creatures/AVWTARU4.def",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar4uiconS.bmp",
+			"iconLarge" : "tartarus/iconsBig/creatures/T4uicon.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.5,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+		"level" : 4,
+		"sound" : {
+			"attack" : "tartarus/TAR4ATTK.wav",
+			"defend" : "tartarus/TAR4DFND.wav",
+			"killed" : "tartarus/TAR4KILL.wav",
+			"move" : "tartarus/TAR4MOVE.wav",
+			"wince" : "tartarus/TAR4WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" : {
+			"immuneToWater" : {
 				"subtype" : "water",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},
-		"regenerate" : 
-			{
+			"regenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 35,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-		"caster": {
+			"caster" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "tarability5",
 				"val" : 20
-		}
-
-    },
-    "stackExperience" :
-		[
+			}
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			},
-			{	
-				"bonus" :
-				{
-					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "iceBolt",
-					"addInfo" : [1, 2]
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : "iceBolt",
+					"addInfo" : [
+						1,
+						2
+					]
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "protectWater"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
-	}	
+	}
 }

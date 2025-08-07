@@ -4,50 +4,91 @@
 	"author" : "FF Team, mod : Turbanellos (Ben YAN)",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.44",
-	"changelog" :
-	{
-		"1.44"	 : [ "Another update to vcmi-1.7 format" ],
-		"1.43"	 : [ "Update to vcmi-1.7 format" ],
-		"1.42"	 : [ "Fix Grail not to produce gold" ],
-		"1.41"	 : [ "Update to vcmi-1.6 format" ],
-		"1.40"	 : [ "Enabled Bloody Tower creature bank.", "Updated PL and RU translations" ],
-		"1.39"	 : [ "Russian translation by Anton Sergeew." ],
-		"1.38"	 : [ "Updates the Ice cache and the map by Fabrice-TIERCELIN." ],
-		"1.37"	 : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
-		"1.36"	 : ["Added polish translation by FallainBlack"],
-		"1.35"	 : ["Added 'People mostly die in winter' map by Fabrice-TIERCELIN"],
-		"1.34"	 : ["Fixed the creatures' stackExp, the commander and other bugs"],
-		"1.33"	 : ["Update to vcmi-1.4 format"],
-		"1.32"	 : ["Updated to new ToW structure"],
-		"1.31"	 : ["New update for units and banks"],
-		"1.30"	 : ["Remake town screens and other elements"],
-		"1.05"   : [ "Update to vcmi-1.3" ],
-		"1.04"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.03"   : [ "Update to vcmi-1.2" ],
-		"1.02"   : [ "New lvl6 creatures graphic" ],
-		"1.01"   : [ "Fixes, added Arrow Towers icons" ],
-		"1.00"   : [ "Initial release" ]
+	"changelog" : {
+		"1.44" : [
+			"Another update to vcmi-1.7 format"
+		],
+		"1.43" : [
+			"Update to vcmi-1.7 format"
+		],
+		"1.42" : [
+			"Fix Grail not to produce gold"
+		],
+		"1.41" : [
+			"Update to vcmi-1.6 format"
+		],
+		"1.40" : [
+			"Enabled Bloody Tower creature bank.",
+			"Updated PL and RU translations"
+		],
+		"1.39" : [
+			"Russian translation by Anton Sergeew."
+		],
+		"1.38" : [
+			"Updates the Ice cache and the map by Fabrice-TIERCELIN."
+		],
+		"1.37" : [
+			"New town theme by Fabrice-TIERCELIN and AI Udio"
+		],
+		"1.36" : [
+			"Added polish translation by FallainBlack"
+		],
+		"1.35" : [
+			"Added 'People mostly die in winter' map by Fabrice-TIERCELIN"
+		],
+		"1.34" : [
+			"Fixed the creatures' stackExp, the commander and other bugs"
+		],
+		"1.33" : [
+			"Update to vcmi-1.4 format"
+		],
+		"1.32" : [
+			"Updated to new ToW structure"
+		],
+		"1.31" : [
+			"New update for units and banks"
+		],
+		"1.30" : [
+			"Remake town screens and other elements"
+		],
+		"1.05" : [
+			"Update to vcmi-1.3"
+		],
+		"1.04" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"1.03" : [
+			"Update to vcmi-1.2"
+		],
+		"1.02" : [
+			"New lvl6 creatures graphic"
+		],
+		"1.01" : [
+			"Fixes, added Arrow Towers icons"
+		],
+		"1.00" : [
+			"Initial release"
+		]
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"modType" : "Town",
-    	"chinese" : {
+	"chinese" : {
 		"name" : "冰狱",
 		"description" : "冰狱是另一位面的恶魔阵营。属于地狱的另一个分支。同时英雄带有恶魔血统，也可以加强地狱生物。",
 		"translations" : [
 			"translation/tartarus/chinese.json"
 		]
 	},
-    	"german" : {
+	"german" : {
 		"name" : "Tartarus",
 		"description" : "Tartarus, eine neue Stadt von Turbanellos (Ben YAN), ist eine neue Stadt für Eisdämonen. Veröffentlicht im Januar 2022.",
 		"translations" : [
 			"translation/tartarus/german.json"
 		]
 	},
-    	"polish" : {
+	"polish" : {
 		"name" : "Tartar",
 		"description" : "Tartar jest frakcją lodowych demonów. Mod został stworzony przez Ben Yana i opublikowany w styczniu 2022.",
 		"translations" : [
@@ -61,15 +102,15 @@
 			"translation/tartarus/russian.json"
 		]
 	},
-	"depends" :
-	[
+	"depends" : [
 		"tides-of-war",
 		"tides-of-war.alternative-creatures",
 		"newtown-terrains.icelandterrain"
 	],
-    "factions" : [ "config/tartarus/town" ],	
-	"creatures" :
-	[
+	"factions" : [
+		"config/tartarus/town"
+	],
+	"creatures" : [
 		"config/tartarus/creatures/tartarc1.json",
 		"config/tartarus/creatures/tartarc2.json",
 		"config/tartarus/creatures/tartarc3.json",
@@ -87,16 +128,14 @@
 		"config/tartarus/creatures/tartarcbe.json",
 		"config/tartarus/creatures/tcommander.json"
 	],
-	
-	"heroClasses" :
-	[
+
+	"heroClasses" : [
 		"config/tartarus/classes/taheroA.json",
 		"config/tartarus/classes/taheroM.json",
 		"config/tartarus/classes/InfernoExtra.json"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/tartarus/heroes/tarhero01.json",
 		"config/tartarus/heroes/tarhero02.json",
 		"config/tartarus/heroes/tarhero03.json",
@@ -115,14 +154,12 @@
 		"config/tartarus/heroes/tarhero16.json",
 		"config/tartarus/classes/campaignHeroes.json"
 	],
-	 "objects":
-    [
+	"objects" : [
 		"config/tartarus/dwellings.json",
 		"config/tartarus/banks/IceBank.json",
 		"config/tartarus/banks/furyBank.json"
-    ],
-	"spells" :
-	[
+	],
+	"spells" : [
 		"config/tartarus/NewOldSpells/tarability1.json",
 		"config/tartarus/NewOldSpells/tarability2.json",
 		"config/tartarus/NewOldSpells/tarability3.json",

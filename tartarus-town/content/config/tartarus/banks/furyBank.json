@@ -1,94 +1,161 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"ftfuryBank" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"ftfuryBank" : {
 				"name" : "Bloody Tower",
 				"templates" : {
-					"base" : { "animation" : "tartarus/map/dwellings/SW_BMR.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
-					"mask" : [ "VVV", "VVV", "VVV", "VVA" ],
-					"allowedTerrains":["dirt","lava","subterra"] 
+					"base" : {
+						"animation" : "tartarus/map/dwellings/SW_BMR.def",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"subterra"
+						]
 					}
 				},
 				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 50
+					"value" : 2500,
+					"rarity" : 50
 				},
 				"onGuardedMessage" : 32,
 				"onVisitedMessage" : 33,
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 15, "type" : "tartarc5" },
-							{ "amount": 15, "type" : "tartarc6" },
-							{ "amount": 10, "type" : "mdtSukkub"},
-							{ "amount": 10, "type" : "mdtLilim" }
-						],
-							"resources": 
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
 							{
-								"gold" : 3000,
-								"mercury" : 2,
-								"sulfur" : 2
+								"amount" : 15,
+								"type" : "tartarc5"
+							},
+							{
+								"amount" : 15,
+								"type" : "tartarc6"
+							},
+							{
+								"amount" : 10,
+								"type" : "mdtSukkub"
+							},
+							{
+								"amount" : 10,
+								"type" : "mdtLilim"
 							}
+						],
+						"resources" : {
+							"gold" : 3000,
+							"mercury" : 2,
+							"sulfur" : 2
+						}
 					},
-										
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 20, "type" : "tartarc5" },
-							{ "amount": 20, "type" : "tartarc6" },
-							{ "amount": 15, "type" : "mdtSukkub"},
-							{ "amount": 15, "type" : "mdtLilim" }
-						],
-							"resources": 
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
 							{
-								"gold" : 4000,
-								"mercury" : 3,
-								"sulfur" : 3
+								"amount" : 20,
+								"type" : "tartarc5"
+							},
+							{
+								"amount" : 20,
+								"type" : "tartarc6"
+							},
+							{
+								"amount" : 15,
+								"type" : "mdtSukkub"
+							},
+							{
+								"amount" : 15,
+								"type" : "mdtLilim"
 							}
+						],
+						"resources" : {
+							"gold" : 4000,
+							"mercury" : 3,
+							"sulfur" : 3
+						}
 					},
-					
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 25, "type" : "tartarc5" },
-							{ "amount": 25, "type" : "tartarc6" },
-							{ "amount": 20, "type" : "mdtSukkub"},
-							{ "amount": 20, "type" : "mdtLilim" }
-						],
-							"resources": 
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
 							{
-								"gold" : 5000,
-								"mercury" : 5,
-								"sulfur" : 5
+								"amount" : 25,
+								"type" : "tartarc5"
+							},
+							{
+								"amount" : 25,
+								"type" : "tartarc6"
+							},
+							{
+								"amount" : 20,
+								"type" : "mdtSukkub"
+							},
+							{
+								"amount" : 20,
+								"type" : "mdtLilim"
 							}
+						],
+						"resources" : {
+							"gold" : 5000,
+							"mercury" : 5,
+							"sulfur" : 5
+						}
 					},
-					
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 30, "type" : "tartarc5" },
-							{ "amount": 30, "type" : "tartarc6" },
-							{ "amount": 25, "type" : "mdtSukkub"},
-							{ "amount": 25, "type" : "mdtLilim" }
-						],
-							"resources": 
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
 							{
-								"gold" : 6000,
-								"mercury" : 7,
-								"sulfur" : 7
+								"amount" : 30,
+								"type" : "tartarc5"
+							},
+							{
+								"amount" : 30,
+								"type" : "tartarc6"
+							},
+							{
+								"amount" : 25,
+								"type" : "mdtSukkub"
+							},
+							{
+								"amount" : 25,
+								"type" : "mdtLilim"
 							}
+						],
+						"resources" : {
+							"gold" : 6000,
+							"mercury" : 7,
+							"sulfur" : 7
+						}
 					}
 				]
 			}

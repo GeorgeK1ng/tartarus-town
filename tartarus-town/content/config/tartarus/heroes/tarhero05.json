@@ -1,32 +1,26 @@
 {
-	"tarhero05" :
-	{
-    "class": "taHeroA",
-    "female" : false,
-		
-		"texts" :
-		{
+	"tarhero05" : {
+		"class" : "taHeroA",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Allar",
 			"biography" : "Allar was a very cunning and greedy magician. He was expelled in disgrace from Bracada when they learned that he was plotting against Gavin Magnus himself. Allar was not confused and believed that the Freegans could become excellent allies in his campaign for power and wealth.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Provide 1 mercury per day to your kingdom.",
 				"tooltip" : "+1 Mercury",
 				"name" : "+1 Mercury"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtyLarge" : "tartarus/heroes/tarhero05/skill5.bmp",
 			"specialtySmall" : "tartarus/heroes/tarhero05/skills5.bmp",
 			"large" : "tartarus/heroes/tarhero05/tarH5.bmp",
 			"small" : "tartarus/heroes/tarhero05/tarH5S.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "tartarc1",
 				"max" : 30,
@@ -43,8 +37,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "demonicBlood"
@@ -54,10 +47,10 @@
 				"skill" : "tactics"
 			}
 		],
-		
+
 		"specialty" : {
-		"bonuses" : {
-			"gold" : {
+			"bonuses" : {
+				"gold" : {
 					"subtype" : "mercury",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
@@ -66,4 +59,3 @@
 		}
 	}
 }
-

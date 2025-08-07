@@ -1,36 +1,30 @@
 {
-	"tarhero15" :
-	{
-    "class": "taHeroM",
-    "female" : true,
-		
-		"texts" :
-		{
+	"tarhero15" : {
+		"class" : "taHeroM",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Iollona",
 			"biography" : "Many women are primarily concerned with how to preserve their beauty. The young sorceress Iollona also once asked this question. The girl found a way to keep her body young with the help of cold, but something messed up with charms and now can not live long without a low temperature. For decades of loneliness in the ice cave, Iolona's mind was completely clouded and she decided to take revenge on all mankind by joining her 'brothers' freegans.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Give 5% extra bonus per level to Resistance skill.",
 				"tooltip" : "Skill bonus: Resistance",
 				"name" : "Resistance"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtyLarge" : "tartarus/heroes/tarhero15/skill15.bmp",
 			"specialtySmall" : "tartarus/heroes/tarhero15/skills15.bmp",
 			"large" : "tartarus/heroes/tarhero15/tarH15.bmp",
 			"small" : "tartarus/heroes/tarhero15/tarH15S.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"removeObstacle"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "tartarc1",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,10 +51,9 @@
 				"skill" : "resistance"
 			}
 		],
-		
+
 		"specialty" : {
-			"secondary" : "resistance" 
+			"secondary" : "resistance"
 		}
 	}
 }
-

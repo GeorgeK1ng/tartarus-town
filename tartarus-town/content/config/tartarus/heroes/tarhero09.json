@@ -1,36 +1,30 @@
 {
-	"tarhero09" :
-	{
-    "class": "taHeroM",
-    "female" : true,
-		
-		"texts" :
-		{
+	"tarhero09" : {
+		"class" : "taHeroM",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Erica",
 			"biography" : "Erica never suppose she has the relevance of any demons. However, she chased a powerful demon and follow him to a deeper cave during her adventure process. Finally she eliminated the demon but she was attracted by frozen atmosphere. Now she don't think she can leave the abyss any longer.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.).",
 				"tooltip" : "Spell bonus: Ice Bolt",
 				"name" : "Ice Bolt"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtyLarge" : "tartarus/heroes/tarhero09/skill9.bmp",
 			"specialtySmall" : "tartarus/heroes/tarhero09/skills9.bmp",
 			"large" : "tartarus/heroes/tarhero09/tarH9.bmp",
 			"small" : "tartarus/heroes/tarhero09/tarH9S.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"iceBolt"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "tartarc1",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,16 +51,15 @@
 				"skill" : "waterMagic"
 			}
 		],
-		
-		"specialty":	{
-			"bonuses":	{
-				"iceBolt" :	{
-					"type": "SPECIAL_SPELL_LEV",
-					"subtype": "iceBolt",
-					"val": 5
+
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "iceBolt",
+					"val" : 5
 				}
 			}
 		}
 	}
 }
-
