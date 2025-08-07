@@ -9,7 +9,7 @@
 		"base" : {
 			"effects" : {
 			"main":{
-				"subtype" : "spell.tartskill1",
+				"subtype" : "tartskill1",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 255,
 				"valueType" : "BASE_NUMBER"
@@ -26,7 +26,7 @@
 			"description" : "{Basic Demonic Blood}\n\nBasic Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 1 during battle.",
 			"effects" : {
 				"main":{
-				"subtype" : "spell.tartskill1",
+				"subtype" : "tartskill1",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 255,
 				"valueType" : "BASE_NUMBER"
@@ -43,7 +43,7 @@
 			"description" : "{Advanced Demonic Blood}\n\nAdvanced Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 2,speed by 1 during battle.",
 			"effects" : {
 				"main":{
-				"subtype" : "spell.tartskill2",
+				"subtype" : "tartskill2",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 255,
 				"valueType" : "BASE_NUMBER"
@@ -60,7 +60,7 @@
 			"description" : "{Expert Demonic Blood}\n\nExpert Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 4,speed by 2 during battle.",
 			"effects" : {
 				"main":{
-				"subtype" : "spell.tartskill3",
+				"subtype" : "tartskill3",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 255,
 				"valueType" : "BASE_NUMBER"	

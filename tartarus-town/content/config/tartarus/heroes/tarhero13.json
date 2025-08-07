@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"meteorIce" : {
-					"subtype" : "spell.tarspell1",
+					"subtype" : "tarspell1",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

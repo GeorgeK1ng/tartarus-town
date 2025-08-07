@@ -60,20 +60,20 @@
 			"castLength" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.tarability7",
+				"subtype" : "tarability7",
 				"val" : 20
 			},
 			"castsIceSpike" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.tarability7",
+				"subtype" : "tarability7",
 				"val" : 1
 			},
 			"castIllusion" :
 			{
 				"type" : "SPELL_BEFORE_ATTACK",
-				"addInfo" : [0,2],
-				"subtype" : "spell.tarability6",
+				"addInfo" : [1,2],
+				"subtype" : "tarability6",
 				"val" : 20
 			},
 			"spellpower" :

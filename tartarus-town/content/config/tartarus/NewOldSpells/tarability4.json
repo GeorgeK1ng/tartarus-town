@@ -55,72 +55,45 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"cost": 0,
+	 
+				"effects":
+				{
+					"stacksSpeed" : {
+//						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : -20,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Crystal Cobweb}\r\n\r\nReduce speeds by 20%. ",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stacksSpeed" : {
-//						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : -20,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Crystal Cobweb}\r\n\r\nReduce speeds by 20%."
 			},
 			"basic":
 			{
-				"description": "{Crystal Cobweb}\r\n\r\nReduce speeds by 20%. ",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stacksSpeed" : {
-//						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : -20,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Crystal Cobweb}\r\n\r\nReduce speeds by 20%."
 			},
 			"advanced":
 			{
-				"description": "{Crystal Cobweb}\r\n\r\nReduce speeds by 30%. ",
-	 
-				"cost": 0,
-	 
+				"description": "{Crystal Cobweb}\r\n\r\nReduce speeds by 30%.",
 				"effects":
 				{
 					"stacksSpeed" : {
-//						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : -30,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
+						"val" : -30
 					}
 				}
 			},
 			"expert":
 			{
 				"description": "{Crystal Cobweb}\r\n\r\nReduce speeds by 30%. ",
-	 
-				"cost": 0,
 				"effects":
 				{
 					"stacksSpeed" : {
-//						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : -30,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
+						"val" : -30
 					}
 				}
 			}

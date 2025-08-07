@@ -73,7 +73,7 @@
 		"castsBloodyMana" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.tarAbility2",
+				"subtype" : "tarAbility2",
 				"val" : 1
 			},
 		"castsAmount" :
@@ -83,7 +83,7 @@
 			},
 	  "caster": {
         "type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.tarAbility1",
+				"subtype" : "tarAbility1",
 				"val" : 20
       }
     },

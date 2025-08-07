@@ -67,30 +67,21 @@
 				"targetModifier":
 				{
 					"smart": false
-				}
+				},
+				"cost": 14,
+				"power": 25				
 			},
 			"none":
 			{
-				"description": "{Frozen Meteor}\n\nSummon meteorites and contribute to range effects.\n",
-	 
-				"range": "0,1",
-				"cost": 14,
-				"power": 25
-	
+				"description": "{Frozen Meteor}\n\nSummon meteorites and contribute to range effects.\n"
 			},
 			"basic":
 			{
-				"description": "{Basic Frozen Meteor}\n\nSummon meteorites and contribute to range effects.\n",
-	 
-				"range": "0,1",
-				"cost": 14,
-				"power": 25
+				"description": "{Basic Frozen Meteor}\n\nSummon meteorites and contribute to range effects.\n"
 			},
 			"advanced":
 			{
 				"description": "{Advanced Frozen Meteor}\n\nSummon meteorites and contribute to range effects.\n",
-	 
-				"range": "0,1",
 				"cost": 12,
 				"power": 50
 			},
@@ -98,7 +89,6 @@
 			{
 				"description": "{Expert Frozen Meteor}\n\nSummon meteorites and contribute to range effects.\n\nMake double damages than basic level.\n",
 	 
-				"range": "0,1",
 				"cost": 12,
 				"power": 100
 			}

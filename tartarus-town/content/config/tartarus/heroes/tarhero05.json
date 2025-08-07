@@ -58,7 +58,7 @@
 		"specialty" : {
 		"bonuses" : {
 			"gold" : {
-					"subtype" : "resource.mercury",
+					"subtype" : "mercury",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}

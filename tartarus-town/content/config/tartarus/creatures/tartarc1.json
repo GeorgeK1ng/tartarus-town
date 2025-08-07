@@ -103,7 +103,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.gremlin"
+					"subtype" : "gremlin"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -111,7 +111,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.fortune"
+					"subtype" : "fortune"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
 			},

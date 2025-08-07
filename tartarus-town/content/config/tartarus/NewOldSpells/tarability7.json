@@ -52,39 +52,27 @@
 						"ignoreImmunity" : true
 					}
 				},
-				"targetModifier":{"smart":true}
+				"targetModifier":{"smart":true},
+	 
+				"cost": 0,
+//				"aiValue": 12,
+				"power": 10				
 			},
 			"none":
 			{
-				"description": "{Ice Spike}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-//				"aiValue": 12,
-				"power": 10
+				"description": "{Ice Spike}\r\n\r\nYou cannot see this description."
 			},
 			"basic":
 			{
-				"description": "{Ice Spike}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-//				"aiValue": 12,
-				"power": 10
+				"description": "{Ice Spike}\r\n\r\nYou cannot see this description."
 			},
 			"advanced":
 			{
-				"description": "{Ice Spike}\r\n\r\nYou cannot see this description.。",
-	 
-				"cost": 0,
-//				"aiValue": 12,
-				"power": 10
+				"description": "{Ice Spike}\r\n\r\nYou cannot see this description."
 			},
 			"expert":
 			{
-				"description": "{Ice Spike}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-//				"aiValue": 12,
-				"power": 10
+				"description": "{Ice Spike}\r\n\r\nYou cannot see this description."
 			}
 			}
 		}

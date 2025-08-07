@@ -55,111 +55,44 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"cost": 0,
+	 
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						"subtype" : "stoneGaze",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"noRetaliation" : {
+//						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Flying Constraint}\r\n\r\nBlock flying creatures for 3 turns until attacked.",
-	 
-				"cost": 0,
-	 
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"noRetaliation" : {
-//						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					}
-				}
+				"description": "{Flying Constraint}\r\n\r\nBlock flying creatures for 3 turns until attacked."
 			},
 			"basic":
 			{
-				"description": "{Flying Constraint}\r\n\r\nBlock flying creatures for 3 turns until attacked.",
-	 
-				"cost": 0,
-	 
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"noRetaliation" : {
-//						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					}
-				}	
+				"description": "{Flying Constraint}\r\n\r\nBlock flying creatures for 3 turns until attacked."
 			},
 			"advanced":
 			{
-				"description": "{Flying Constraint}\r\n\r\nBlock flying creatures for 3 turns until attacked.",
-	 
-				"cost": 0,
-	 
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"noRetaliation" : {
-//						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					}
-				}	
+				"description": "{Flying Constraint}\r\n\r\nBlock flying creatures for 3 turns until attacked."	
 			},
 			"expert":
 			{
-				"description": "{Flying Constraint}\r\n\r\nBlock flying creatures for 3 turns until attacked.",
-	 
-				"cost": 0,
-	 
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"noRetaliation" : {
-//						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					}
-				}
+				"description": "{Flying Constraint}\r\n\r\nBlock flying creatures for 3 turns until attacked."
 			}
 		}
 	}

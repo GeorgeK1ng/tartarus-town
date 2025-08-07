@@ -58,7 +58,7 @@
 			},
 		"caster": {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.tarability5",
+				"subtype" : "tarability5",
 				"val" : 20
 		}
 
@@ -116,8 +116,8 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.iceBolt",
-					"addInfo" : [3, 1]
+					"subtype" : "iceBolt",
+					"addInfo" : [1, 2]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -125,7 +125,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectWater"
+					"subtype" : "protectWater"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			}

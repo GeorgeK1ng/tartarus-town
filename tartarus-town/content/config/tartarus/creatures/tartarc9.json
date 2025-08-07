@@ -69,7 +69,7 @@
       "caster": {
         "type" : "SPELL_AFTER_ATTACK",
 		"addInfo" : [1, 1],
-		"subtype" : "spell.tarAbility4",
+		"subtype" : "tarAbility4",
 		"val" : 50
       }
 

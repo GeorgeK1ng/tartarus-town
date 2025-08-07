@@ -5,7 +5,8 @@
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [ "tartarc1", true ],
+						"creature" : "tartarc1", 
+						"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]

@@ -55,7 +55,7 @@
 			},
       "caster": {
         "type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.tarability5",
+				"subtype" : "tarability5",
 				"val" : 20
       }
 
@@ -120,7 +120,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectWater"
+					"subtype" : "protectWater"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			}

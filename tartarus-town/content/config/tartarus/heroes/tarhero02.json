@@ -54,7 +54,7 @@
 			"bonuses":	{
 				"demonBlood" : {
 					"type": "OPENING_BATTLE_SPELL",
-					"subtype": "spell.tartskill1",
+					"subtype": "tartskill1",
 					"val" : 255,
 					"valueType" : "BASE_NUMBER"
 				}

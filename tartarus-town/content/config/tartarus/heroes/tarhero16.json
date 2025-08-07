@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "Reduce Spell Cost by 2.",
-				"tooltip" : "Spell bonus: Blind",
+				"tooltip" : "Spell bonus: Reduce cost",
 				"name" : "-2 Spell Cost"
 			}
 		},

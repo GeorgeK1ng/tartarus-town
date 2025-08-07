@@ -57,7 +57,7 @@
 		},
 	  "caster": {
         "type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.tarAbility1",
+				"subtype" : "tarAbility1",
 				"val" : 20
       }
     },

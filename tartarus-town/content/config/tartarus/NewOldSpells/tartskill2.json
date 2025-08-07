@@ -81,127 +81,52 @@
 			{
 				"power": 10,
 //				"aiValue": 12,
-				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"cost": 0,
+				"range" : "X",
+	 
+				"effects" : 
+				{
+					"attack" : {
+						"val" : 2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "attack",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : 2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "defence",
+						"duration" : "N_TURNS"
+					},
+					"speed":{
+						"type" : "STACKS_SPEED",
+						"val" : 1,
+						"valueType" : "BASE_NUMBER",
+						"duration" : "N_TURNS"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": " ",
+				"description": " "
 	 
-				"cost": 0,
-				"range" : "X",
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : 2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : 2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					},
-					"speed":{
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"basic":
 			{
-				"description": " ",
-	 
-				"cost": 0,
-				"range" : "X",
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : 2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : 2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					},
-					"speed":{
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": " "
 			},
 			"advanced":
 			{
-				"description": " ",
-	 
-				"cost": 0,
-				"range" : "X",
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : 2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : 2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					},
-					"speed":{
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": " "
 			},
 			"expert":
 			{
-				"description": " ",
-	 
-				"cost": 0,
-				"range" : "X",
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : 2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : 2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					},
-					"speed":{
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": " "
 			}
 		}
 	}

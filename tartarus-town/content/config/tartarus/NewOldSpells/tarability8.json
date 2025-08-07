@@ -52,7 +52,8 @@
 						"hidden" : false,
 						"passable" : false,
 						"trap" : false,
-						"trigger" : false,
+//						"trigger" : false, //not in vcmi-1.7 "triggerAbility" is replacement?
+						"triggerAbility" : "core:landMineTrigger",
 						"patchCount" : 1,
 						"turnsRemaining" : 2,
 						"attacker" :{

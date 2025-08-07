@@ -51,42 +51,26 @@
 						"permanent":false,
 						"type":"core:summon"
 					}
-				}
+				},
+				"cost": 0,
+//				"aiValue": 12,
+				"power": 1				
 			},
 			"none":
 			{
-				"description": " ",
-	 
-				"cost": 0,
-//				"aiValue": 12,
-				"power": 1
-	 
+				"description": " "
 			},
 			"basic":
 			{
-				"description": " ",
-	 
-				"cost": 0,
-//				"aiValue": 12,
-				"power": 1
-	 
+				"description": " "
 			},
 			"advanced":
 			{
-				"description": " ",
-	 
-				"cost": 0,
-//				"aiValue": 12,
-				"power": 1
-	 
+				"description": " "
 			},
 			"expert":
 			{
 				"description": " ",
-	 
-				"cost": 0,
-//				"aiValue": 12,
-				"power": 1,
 				"range": "X"
 	 
 			}

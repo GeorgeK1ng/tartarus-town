@@ -56,95 +56,40 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"cost": 0,
+	 
+				"effects" : 
+				{
+					"attack" : {
+						"val" : 6,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "attack",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "defence",
+						"duration" : "N_TURNS"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : 6,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5."
 			},
 			"basic":
 			{
-				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : 6,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5."
 			},
 			"advanced":
 			{
-				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : 6,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5."
 			},
 			"expert":
 			{
-				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : 6,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5."
 			}
 		}
 	}

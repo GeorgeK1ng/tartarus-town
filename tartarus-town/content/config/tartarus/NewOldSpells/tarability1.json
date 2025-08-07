@@ -56,97 +56,41 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"cost": 0,
+	 
+				"effects" : 
+				{
+					"attack" : {
+						"val" : -3,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "attack",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -3,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "defence",
+						"duration" : "N_TURNS"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Impairment}\r\n\r\nReduce 3 attack and defense points.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Impairment}\r\n\r\nReduce 3 attack and defense points."
 			},
 			"basic":
 			{
-				"description": "{Impairment}\r\n\r\nReduce 3 attack and defense points.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Impairment}\r\n\r\nReduce 3 attack and defense points."
 			},
 			"advanced":
 			{
-				"description": "{Impairment}\r\n\r\nReduce 3 attack and defense points.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Impairment}\r\n\r\nReduce 3 attack and defense points."
 			},
 			"expert":
 			{
-				"description": "{Impairment}\r\n\r\nReduce 3 attack and defense points.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
-					"attack" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+				"description": "{Impairment}\r\n\r\nReduce 3 attack and defense points."
 			}
 		}
 	}
- 
 }

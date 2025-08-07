@@ -115,7 +115,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 77, 79, 81, 83, 85, 87, 89, 91, 93, 96 ]
 			}

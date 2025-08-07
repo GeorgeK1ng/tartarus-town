@@ -21,7 +21,7 @@
 		},
 		"defense" : 5,
     "cost": {
-      "gold": 140
+      "gold": 1500
     },
 		"fightValue" : 130,
 		"graphics" :
@@ -71,7 +71,8 @@
 		{
 		    "magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"castsAmount" :
@@ -92,7 +93,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.bloodlust",
+				"subtype" : "bloodlust",
 				"val" : 3
 			}
 	    }
