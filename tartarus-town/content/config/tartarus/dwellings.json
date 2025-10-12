@@ -21,7 +21,8 @@
 							"icelands"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "tartarus/icons/flagports/dw1.def"
 			},
 			"tartarusLevel2" : {
 				"name" : "Frozen Tower",
@@ -44,7 +45,8 @@
 							"icelands"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "tartarus/icons/flagports/dw2.def"
 			},
 			"tartarusLevel3" : {
 				"name" : "Cliff of Fury",
@@ -67,7 +69,8 @@
 							"icelands"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "tartarus/icons/flagports/dw3.def"
 			},
 			"tartarusLevel4" : {
 				"name" : "Ice Hole",
@@ -82,14 +85,15 @@
 						"mask" : [
 							"VVV",
 							"VVV",
-							"BAB"
+							"VAB"
 						],
 						"allowedTerrains" : [
 							"snow",
 							"icelands"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "tartarus/icons/flagports/dw4.def"
 			},
 			"tartarusLevel5" : {
 				"name" : "Crystal Cobweb",
@@ -117,7 +121,8 @@
 							"icelands"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "tartarus/icons/flagports/dw5.def"
 			},
 			"tartarusLevel6" : {
 				"name" : "Arctic Altar",
@@ -145,7 +150,8 @@
 							"icelands"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "tartarus/icons/flagports/dw6.def"
 			},
 			"tartarusLevel7" : {
 				"name" : "Heart of Coldness",
@@ -173,7 +179,8 @@
 							"icelands"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "tartarus/icons/flagports/dw7.def"
 			}
 		}
 	}

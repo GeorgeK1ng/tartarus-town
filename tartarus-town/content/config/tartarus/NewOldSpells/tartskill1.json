@@ -78,7 +78,7 @@
 		"levels" : {
 			"base" : {
 				"power" : 10,
-				//				"aiValue": 12,
+				//				"aiValue" : 12,
 				"targetModifier" : {
 					"smart" : true
 				},
