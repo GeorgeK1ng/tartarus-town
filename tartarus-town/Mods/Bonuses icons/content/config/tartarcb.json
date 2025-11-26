@@ -1,0 +1,15 @@
+{
+	"tartarus-town:tartarcab" : {
+		"abilities" : {
+			"immuneToWater" : {
+				"icon" : "bonuses/damage_reduction_ice.png"
+			},
+			"castsIceSpike" : {
+				"icon" : "bonuses/icespikes0.png"
+			},
+			"castIllusion" : {
+				"icon" : "bonuses/illusion.png"
+			}
+		}
+	}
+}

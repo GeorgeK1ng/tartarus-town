@@ -1,0 +1,26 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/tartarc1.json",
+		"config/tartarc2.json",
+		"config/tartarc3.json",
+		"config/tartarc4.json",
+		"config/tartarc5.json",
+		"config/tartarc6.json",
+		"config/tartarc7.json",
+		"config/tartarc8.json",
+		"config/tartarc9.json",
+		"config/tartarc10.json",
+		"config/tartarca.json",
+		"config/tartarcb.json",
+		"config/tartarcc.json",
+		"config/tartarcd.json",
+		"config/tartarcbe.json",
+		"config/tcommander.json"
+	]	
+}

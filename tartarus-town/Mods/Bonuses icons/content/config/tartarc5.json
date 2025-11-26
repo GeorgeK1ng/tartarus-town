@@ -1,0 +1,12 @@
+{
+	"tartarus-town:tartarc5" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly2.png"
+			},
+			"caster" : {
+				"icon" : "bonuses/impairment_fury.png"
+			}
+		}
+	}
+}

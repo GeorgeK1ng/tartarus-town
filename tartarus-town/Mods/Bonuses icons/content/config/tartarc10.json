@@ -1,0 +1,12 @@
+{
+	"tartarus-town:tartarc10" : {
+		"abilities" : {
+			"caster" : {
+				"icon" : "bonuses/crystalCobweb.png"
+			},
+			"caster2" : {
+				"icon" : "bonuses/flyingConstraint.png"
+			}
+		}
+	}
+}

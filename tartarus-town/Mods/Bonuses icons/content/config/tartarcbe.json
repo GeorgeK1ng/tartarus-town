@@ -1,0 +1,14 @@
+{
+	"tartarus-town:tartarcabe" : {
+		"abilities" : {
+			"immuneToWater" : {
+				"icon" : "bonuses/damage_reduction_ice.png"
+			},
+			"dumpIcon" : {
+				"type" : "NONE",
+				"icon" : "bonuses/cloned.png",
+				"description" : "{Illusion}\nThis creature can be only summoned by Frozen Demons"
+			}
+		}
+	}
+}

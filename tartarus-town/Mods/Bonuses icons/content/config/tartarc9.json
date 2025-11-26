@@ -1,0 +1,9 @@
+{
+	"tartarus-town:tartarc9" : {
+		"abilities" : {
+			"caster" : {
+				"icon" : "bonuses/crystalCobweb.png"
+			}
+		}
+	}
+}

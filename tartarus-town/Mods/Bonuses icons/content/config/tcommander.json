@@ -1,0 +1,9 @@
+{
+	"tartarus-town:tcommander" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/bloodlust3.png"
+			}
+		}
+	}
+}
