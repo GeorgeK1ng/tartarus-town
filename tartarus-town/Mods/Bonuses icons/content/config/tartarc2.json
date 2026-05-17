@@ -1,8 +1,8 @@
 {
 	"tartarus-town:tartarc2" : {
 		"abilities" : {
-			"canFly": {
-					"icon" : "bonuses/e_fly2.png"
+			"canFly" : {
+				"icon" : "bonuses/e_fly2.png"
 			},
 			"caster" : {
 				"icon" : "bonuses/misfortuneattack.png"

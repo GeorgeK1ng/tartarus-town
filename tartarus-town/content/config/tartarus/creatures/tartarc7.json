@@ -47,41 +47,36 @@
 		},
 		"speed" : 6,
 		"abilities" : {
-			"fireShieldVulnerablity" :
-			{
+			"fireShieldVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireShield",
 				"val" : 100,
 				"description" : "{Fire Vulnerablity}\nDouble damage from Fire Spells",
-				"icon" : "NewOldSpells/fireWeak.png",
+				"icon" : "NewOldSpells/fireWeak.png"
 			},
-			"infernoVulnerablity" :
-			{
+			"infernoVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.inferno",
 				"val" : 100,
-				"hidden":true
+				"hidden" : true
 			},
-			"fireballVulnerablity" :
-			{
+			"fireballVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireball",
 				"val" : 100,
-				"hidden":true
+				"hidden" : true
 			},
-			"fireWallVulnerablity" :
-			{
+			"fireWallVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireWallTrigger",
 				"val" : 100,
-				"hidden":true
+				"hidden" : true
 			},
-			"armageddonVulnerablity" :
-			{
+			"armageddonVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.armageddon",
 				"val" : 100,
-				"hidden":true
+				"hidden" : true
 			},
 			"immuneToWater" : {
 				"subtype" : "water",

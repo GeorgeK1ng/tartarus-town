@@ -24,7 +24,10 @@
 			]
 		},
 
-		"flags" : {"positive": true, "persistent" : true},
+		"flags" : {
+			"positive" : true,
+			"persistent" : true
+		},
 
 		"targetCondition" : {
 			"anyOf" : {

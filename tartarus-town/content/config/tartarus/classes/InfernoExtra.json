@@ -1,6 +1,5 @@
 {
-	"core:demoniac" :
-	{
+	"core:demoniac" : {
 		"secondarySkills" : {
 			"demonicBlood" : 8
 		},
@@ -8,14 +7,12 @@
 			"tartarus" : 6
 		}
 	},
-	"core:heretic" :
-	{
+	"core:heretic" : {
 		"secondarySkills" : {
 			"demonicBlood" : 8
 		},
 		"tavern" : {
 			"tartarus" : 6
 		}
-		
 	}
 }

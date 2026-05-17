@@ -44,70 +44,70 @@
 		},
 		"speed" : 6,
 		"abilities" : {
-			"fireShieldVulnerablity" :
-			{
+			"fireShieldVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireShield",
 				"val" : 100,
 				"description" : "{Fire Vulnerablity}\nDouble damage from Fire Spells",
-				"icon" : "NewOldSpells/fireWeak.png",
+				"icon" : "NewOldSpells/fireWeak.png"
 			},
-			"infernoVulnerablity" :
-			{
+			"infernoVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.inferno",
 				"val" : 100,
-				"hidden":true
+				"hidden" : true
 			},
-			"fireballVulnerablity" :
-			{
+			"fireballVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireball",
 				"val" : 100,
-				"hidden":true
+				"hidden" : true
 			},
-			"fireWallVulnerablity" :
-			{
+			"fireWallVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireWallTrigger",
 				"val" : 100,
-				"hidden":true
+				"hidden" : true
 			},
-			"armageddonVulnerablity" :
-			{
+			"armageddonVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.armageddon",
 				"val" : 100,
 				"description" : "{Ice Shield}\n+5 Defence in Snow and Ice Terrain",
-				"icon" : "NewOldSpells/iceShield.png",
+				"icon" : "NewOldSpells/iceShield.png"
 			},
-			"immuneToWater" :
-			{
+			"immuneToWater" : {
 				"subtype" : "spellSchool.water",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},
-			"iceBonus" :
-			{
-				"type": "ENCHANTED",
-				"subtype": "spell.tarAbility2",
-				"val" : 0,	
-				"hidden":true,
-				"limiters" : [ {
-					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["snow"]
-				} ]
-			},
-			"iceBonus2" :
-			{
-				"type": "ENCHANTED",
-				"subtype": "spell.tarAbility2",
+			"iceBonus" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.tarAbility2",
 				"val" : 0,
-				"hidden":true,
-				"limiters" : [ {
-					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["icelands"]
-				} ]
+				"hidden" : true,
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"parameters" : [
+							"snow"
+						]
+					}
+				]
+			},
+			"iceBonus2" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.tarAbility2",
+				"val" : 0,
+				"hidden" : true,
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"parameters" : [
+							"icelands"
+						]
+					}
+				]
 			},
 			"caster" : {
 				"type" : "SPELL_AFTER_ATTACK",

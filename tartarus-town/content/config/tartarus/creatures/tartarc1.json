@@ -40,11 +40,11 @@
 			"tartarc2"
 		],
 		"sound" : {
-			"attack": "IMPPATTK.wav",
-		"defend": "IMPPDFND.wav",
-		"killed": "IMPPKILL.wav",
-		"move": "IMPPMOVE.wav",
-		"wince": "IMPPWNCE.wav"
+			"attack" : "IMPPATTK.wav",
+			"defend" : "IMPPDFND.wav",
+			"killed" : "IMPPKILL.wav",
+			"move" : "IMPPMOVE.wav",
+			"wince" : "IMPPWNCE.wav"
 		},
 		"speed" : 5,
 		"abilities" : {},

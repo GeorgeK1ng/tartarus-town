@@ -1,72 +1,68 @@
 {
-	"tarAbility2":
-	{
-		"type": "ability", 
-		"name": "Ice Shield",
-		"school" :
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": true
+	"tarAbility2" : {
+		"type" : "ability",
+		"name" : "Ice Shield",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
 		},
-		"level": 5,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
- 
+
 		//forgetfulness animation
-		"animation":{
-			"affect":[{"defName":"NewOldSpells/C3BloodyMana.def"}]
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "NewOldSpells/C3BloodyMana.def"
+				}
+			]
 		},
- 
-		"flags" : {"positive": true},
- 
+
+		"flags" : {
+			"positive" : true
+		},
+
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute"
 			}
 		},
- 
-		"graphics":
-		{
-			"iconBook": "NewOldSpells/Useless1.bmp",
-			"iconScroll": "NewOldSpells/Useless2.bmp",
-			"iconScenarioBonus": "NewOldSpells/Useless3.bmp",
-			"iconEffect": "NewOldSpells/iceShield2.png"
+
+		"graphics" : {
+			"iconBook" : "NewOldSpells/Useless1.bmp",
+			"iconScroll" : "NewOldSpells/Useless2.bmp",
+			"iconScenarioBonus" : "NewOldSpells/Useless3.bmp",
+			"iconEffect" : "NewOldSpells/iceShield2.png"
 		},
 
-		"sounds":
-		{
-			"cast": "REMOVEOB"
+		"sounds" : {
+			"cast" : "REMOVEOB"
 		},
 		"targetType" : "CREATURE",
- 
-		"levels":
-		{
-			"base":
-			{
-				"power": 10,
-				"range": "0",
-				"targetModifier":
-				{
-					"smart": true
+
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"none":
-			{
-				"description": "{Ice Shield}\r\n\r\nIcrease defence of this unit by 5.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
+			"none" : {
+				"description" : "{Ice Shield}\r\n\r\nIcrease defence of this unit by 5.",
+
+				"cost" : 0,
+
+				"effects" : {
 					"defence" : {
 						"val" : 5,
 						"type" : "PRIMARY_SKILL",
@@ -75,14 +71,12 @@
 					}
 				}
 			},
-			"basic":
-			{
-				"description": "{Ice Shield}\r\n\r\nIcrease defence of this unit by 5.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
+			"basic" : {
+				"description" : "{Ice Shield}\r\n\r\nIcrease defence of this unit by 5.",
+
+				"cost" : 0,
+
+				"effects" : {
 					"defence" : {
 						"val" : 5,
 						"type" : "PRIMARY_SKILL",
@@ -91,14 +85,12 @@
 					}
 				}
 			},
-			"advanced":
-			{
-				"description": "{Ice Shield}\r\n\r\nIcrease defence of this unit by 5.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
+			"advanced" : {
+				"description" : "{Ice Shield}\r\n\r\nIcrease defence of this unit by 5.",
+
+				"cost" : 0,
+
+				"effects" : {
 					"defence" : {
 						"val" : 5,
 						"type" : "PRIMARY_SKILL",
@@ -107,14 +99,12 @@
 					}
 				}
 			},
-			"expert":
-			{
-				"description": "{Ice Shield}\r\n\r\nIcrease defence of this unit by 5.",
-	 
-				"cost": 0,
-	 
-				"effects" : 
-				{
+			"expert" : {
+				"description" : "{Ice Shield}\r\n\r\nIcrease defence of this unit by 5.",
+
+				"cost" : 0,
+
+				"effects" : {
 					"defence" : {
 						"val" : 5,
 						"type" : "PRIMARY_SKILL",
@@ -125,5 +115,4 @@
 			}
 		}
 	}
- 
 }

@@ -14,26 +14,26 @@
 		}
 	},
 	"heroes" : [
-		"config/tartarus/heroes.json",
+		"config/tartarus/heroes.json"
 	],
 	"chinese" : {
 		"name" : "英雄",
-		"description" : "和HotA类似的英雄特长加成。",
+		"description" : "和HotA类似的英雄特长加成。"
 	},
 	"czech" : {
 		"name" : "Hrdinové",
-		"description" : "Změňte vyváženost HotA pro frakci Tartarus.",
+		"description" : "Změňte vyváženost HotA pro frakci Tartarus."
 	},
 	"german" : {
 		"name" : "Helden",
-		"description" : "Ändert die Balance in HotA für die Tartarus-Fraktion.",
+		"description" : "Ändert die Balance in HotA für die Tartarus-Fraktion."
 	},
 	"french" : {
 		"name" : "Héros",
-		"description" : "Modifier l'équilibrage de HotA pour la faction des Tartarus.",
+		"description" : "Modifier l'équilibrage de HotA pour la faction des Tartarus."
 	},
 	"russian" : {
 		"name" : "Герои",
-		"description" : "Измените баланс HotA для фракции тартар.",
+		"description" : "Измените баланс HotA для фракции тартар."
 	}
 }

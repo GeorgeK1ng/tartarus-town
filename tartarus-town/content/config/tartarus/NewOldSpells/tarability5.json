@@ -16,17 +16,19 @@
 			"rampart" : 0,
 			"conflux" : 0
 		},
-		"animation":{
-			"affect":[ {
-				"effectName" : "freeze",
-				"transparency" : 0.5
-			} ]
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "freeze",
+					"transparency" : 0.5
+				}
+			]
 		},
- 
+
 		"flags" : {
-			"negative": true,
-			"indifferent": true
-			},
+			"negative" : true,
+			"indifferent" : true
+		},
 
 		"graphics" : {
 			"iconBook" : "NewOldSpells/USELESS1.bmp",
@@ -72,8 +74,8 @@
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"val" : -20,
 						"duration" : [
-						    "UNTIL_BEING_ATTACKED",
-						    "N_TURNS"
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
 						],
 						"turns" : 3
 					}

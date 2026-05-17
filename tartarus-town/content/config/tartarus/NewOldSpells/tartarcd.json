@@ -68,23 +68,29 @@
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"spellpointsSnow" :
-			{
+			"spellpointsSnow" : {
 				"type" : "CASTS",
 				"val" : 1,
-				"limiters" : [ {
-					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["snow"]
-				} ]
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"parameters" : [
+							"snow"
+						]
+					}
+				]
 			},
-			"spellpointsIce" :
-			{
+			"spellpointsIce" : {
 				"type" : "CASTS",
 				"val" : 1,
-				"limiters" : [ {
-					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["icelands"]
-				} ]
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"parameters" : [
+							"icelands"
+						]
+					}
+				]
 			},
 			"manaChannel" : {
 				"type" : "MANA_CHANNELING",

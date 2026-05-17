@@ -35,9 +35,13 @@
 			"iconImmune" : "NewOldSpells/confusionImmune.bmp"
 		},
 
-		"animation":
-		{
-			"hit":[{ "defName" : "NewOldSpells/TAHUCI.def", "transparency" : 0.7}]
+		"animation" : {
+			"hit" : [
+				{
+					"defName" : "NewOldSpells/TAHUCI.def",
+					"transparency" : 0.7
+				}
+			]
 		},
 
 		"sounds" : {
