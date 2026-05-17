@@ -1,10 +1,13 @@
 {
 	"name" : "Tartarus Town",
 	"description" : "Tartarus is a town for ice demons, released in January 2022. This town is released with the dedicated map 'People mostly dies in winter'.",
-	"author" : "FF Team, mod : Turbanellos (Ben YAN)",
+	"author" : "Ben YAN, collaborators: Kurek and Yan Liu",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.46",
+	"version" : "2.00",
 	"changelog" : {
+		"2.00" : [
+			"New update by Ben Yan"
+		],
 		"1.46" : [
 			"Added additional creatures abilities icons by Kurek"
 		],

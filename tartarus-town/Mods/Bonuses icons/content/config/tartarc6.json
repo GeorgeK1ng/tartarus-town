@@ -4,9 +4,6 @@
 			"canFly" : {
 				"icon" : "bonuses/e_fly2.png"
 			},
-			"castsBloodyMana" : {
-				"icon" : "bonuses/bloodyfury0.png"
-			},
 			"caster" : {
 				"icon" : "bonuses/impairment_fury.png"
 			}

@@ -16,8 +16,8 @@
 		"images" : {
 			"specialtyLarge" : "tartarus/heroes/tarhero11/skill11.bmp",
 			"specialtySmall" : "tartarus/heroes/tarhero11/skills11.bmp",
-			"large" : "tartarus/heroes/tarhero11/tarH11.bmp",
-			"small" : "tartarus/heroes/tarhero11/tarH11S.bmp"
+			"large" : "tartarus/heroes/tarhero11/tarH11.png",
+			"small" : "tartarus/heroes/tarhero11/tarH11S.png"
 		},
 
 		"spellbook" : [

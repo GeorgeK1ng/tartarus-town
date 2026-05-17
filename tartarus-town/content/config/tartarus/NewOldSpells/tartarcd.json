@@ -1,0 +1,302 @@
+{
+	"tartarcd" : {
+		"name" : {
+			"plural" : "Beelzebubs",
+			"singular" : "Beelzebub"
+		},
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "tartarus",
+		"aiValue" : 6835,
+		"attack" : 26,
+		"cost" : {
+			"gold" : 4500,
+			"crystal" : 2
+		},
+		"damage" : {
+			"max" : 60,
+			"min" : 40
+		},
+		"defense" : 28,
+		"fightValue" : 5505,
+		"graphics" : {
+			"animation" : "tartarus/battle/creatures/Tar7up.def",
+			"map" : "tartarus/map/creatures/AVWTARU7.def",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar7uiconS.bmp",
+			"iconLarge" : "tartarus/iconsBig/creatures/T7uicon.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 1,
+		"hitPoints" : 220,
+		"level" : 7,
+		"sound" : {
+			"attack" : "tartarus/TAR7ATTK.wav",
+			"defend" : "tartarus/TAR7DFND.wav",
+			"killed" : "tartarus/TAR7KILL.wav",
+			"move" : "ADVLMOVE.wav",
+			"shoot" : "MONKSHOT.wav",
+			"wince" : "tartarus/TAR7WNCE.wav",
+			"startMoving" : "tartarus/TAR7EXT1.wav",
+			"endMoving" : "tartarus/TAR7EXT2.wav"
+		},
+		"speed" : 17,
+		"abilities" : {
+			"expertSlayer" : {
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"teleportAllied" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "tarability9",
+				"val" : 1,
+				"description" : "{Summon Gelugon}\nSummon Gelugon in Snow and Ice terrain",
+				"icon" : "NewOldSpells/lv7.png"
+			},
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"spellpointsSnow" :
+			{
+				"type" : "CASTS",
+				"val" : 1,
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["snow"]
+				} ]
+			},
+			"spellpointsIce" :
+			{
+				"type" : "CASTS",
+				"val" : 1,
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["icelands"]
+				} ]
+			},
+			"manaChannel" : {
+				"type" : "MANA_CHANNELING",
+				"val" : 50
+			},
+			"extraRetaliation" : {
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 2
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "fire"
+				},
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "earth"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "FEARFUL", //old fearless
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "MIND_IMMUNITY"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "any"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "berserk",
+					"addInfo" : [
+						1,
+						0
+					]
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
+	}
+}

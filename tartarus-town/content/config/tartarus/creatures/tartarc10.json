@@ -1,8 +1,8 @@
 {
 	"tartarc10" : {
 		"name" : {
-			"plural" : "Crystal Arachnids",
-			"singular" : "Crystal Arachnid"
+			"plural" : "Crystal Arachnes",
+			"singular" : "Crystal Arachne"
 		},
 		"advMapAmount" : {
 			"max" : 12,
@@ -60,7 +60,7 @@
 			}
 		},
 		"growth" : 3,
-		"hitPoints" : 55,
+		"hitPoints" : 45,
 		"level" : 5,
 		"sound" : {
 			"attack" : "tartarus/TAR5ATTK.wav",
@@ -75,9 +75,6 @@
 		"abilities" : {
 			"canShoot" : {
 				"type" : "SHOOTER"
-			},
-			"noMeleePenalty" : {
-				"type" : "NO_MELEE_PENALTY"
 			},
 			"caster" : {
 				"type" : "SPELL_AFTER_ATTACK",

@@ -4,9 +4,6 @@
 			"FLYING_ARMY" : {
 				"icon" : "bonuses/e_teleport.png"
 			},
-			"teleportAllied" : {
-				"icon" : "bonuses/summonicedemonsgelugons0.png"
-			},
 			"manaChannel" : {
 				"icon" : "bonuses/ManaChannel_Beelzebubs.png"
 			},

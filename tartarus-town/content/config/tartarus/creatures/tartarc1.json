@@ -34,17 +34,17 @@
 		},
 		"growth" : 16,
 		"hitPoints" : 3,
-		"horde" : 8,
+		"horde" : 6,
 		"level" : 1,
 		"upgrades" : [
 			"tartarc2"
 		],
 		"sound" : {
-			"attack" : "tartarus/TAR1ATTK.wav",
-			"defend" : "tartarus/TAR1DFND.wav",
-			"killed" : "tartarus/TAR1KILL.wav",
-			"move" : "tartarus/TAR1MOVE.wav",
-			"wince" : "tartarus/TAR1WNCE.wav"
+			"attack": "IMPPATTK.wav",
+		"defend": "IMPPDFND.wav",
+		"killed": "IMPPKILL.wav",
+		"move": "IMPPMOVE.wav",
+		"wince": "IMPPWNCE.wav"
 		},
 		"speed" : 5,
 		"abilities" : {},

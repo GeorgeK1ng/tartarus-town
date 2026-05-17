@@ -12,17 +12,14 @@
 				"templates" : {
 					"default" : {
 						"animation" : "tartarus/map/dwellings/AVGTA1",
-						"mask" : [
-							"VV",
-							"VA"
-						],
+						"mask" : ["VVV","VBV","VAB" ],
 						"allowedTerrains" : [
 							"snow",
 							"icelands"
 						]
 					}
 				},
-				"kingdomOverviewImage" : "tartarus/icons/flagports/dw1.def"
+				"kingdomOverviewImage" : "tartarus/icons/flagports/tar1.def"
 			},
 			"tartarusLevel2" : {
 				"name" : "Frozen Tower",
@@ -46,7 +43,7 @@
 						]
 					}
 				},
-				"kingdomOverviewImage" : "tartarus/icons/flagports/dw2.def"
+				"kingdomOverviewImage" : "tartarus/icons/flagports/tar2.def"
 			},
 			"tartarusLevel3" : {
 				"name" : "Cliff of Fury",
@@ -70,7 +67,7 @@
 						]
 					}
 				},
-				"kingdomOverviewImage" : "tartarus/icons/flagports/dw3.def"
+				"kingdomOverviewImage" : "tartarus/icons/flagports/tar3.def"
 			},
 			"tartarusLevel4" : {
 				"name" : "Ice Hole",
@@ -82,18 +79,14 @@
 				"templates" : {
 					"default" : {
 						"animation" : "tartarus/map/dwellings/AVGTA4",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAB"
-						],
+						"mask" : ["VVV","VBA" ],
 						"allowedTerrains" : [
 							"snow",
 							"icelands"
 						]
 					}
 				},
-				"kingdomOverviewImage" : "tartarus/icons/flagports/dw4.def"
+				"kingdomOverviewImage" : "tartarus/icons/flagports/tar4.def"
 			},
 			"tartarusLevel5" : {
 				"name" : "Crystal Cobweb",
@@ -122,7 +115,7 @@
 						]
 					}
 				},
-				"kingdomOverviewImage" : "tartarus/icons/flagports/dw5.def"
+				"kingdomOverviewImage" : "tartarus/icons/flagports/tar5.def"
 			},
 			"tartarusLevel6" : {
 				"name" : "Arctic Altar",
@@ -140,18 +133,14 @@
 				"templates" : {
 					"default" : {
 						"animation" : "tartarus/map/dwellings/AVGTA6",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VAB"
-						],
+						"mask" : ["VVV","VVV","VVV","VVV","VBB","VBA" ],
 						"allowedTerrains" : [
 							"snow",
 							"icelands"
 						]
 					}
 				},
-				"kingdomOverviewImage" : "tartarus/icons/flagports/dw6.def"
+				"kingdomOverviewImage" : "tartarus/icons/flagports/tar6.def"
 			},
 			"tartarusLevel7" : {
 				"name" : "Heart of Coldness",
@@ -169,18 +158,14 @@
 				"templates" : {
 					"default" : {
 						"animation" : "tartarus/map/dwellings/AVGTA7",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAB"
-						],
+						"mask" : ["VVV","VVV","VAB" ],
 						"allowedTerrains" : [
 							"snow",
 							"icelands"
 						]
 					}
 				},
-				"kingdomOverviewImage" : "tartarus/icons/flagports/dw7.def"
+				"kingdomOverviewImage" : "tartarus/icons/flagports/tar7.def"
 			}
 		}
 	}

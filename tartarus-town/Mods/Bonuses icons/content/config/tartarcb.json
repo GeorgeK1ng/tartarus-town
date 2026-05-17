@@ -6,9 +6,6 @@
 			},
 			"castsIceSpike" : {
 				"icon" : "bonuses/icespikes0.png"
-			},
-			"castIllusion" : {
-				"icon" : "bonuses/illusion.png"
 			}
 		}
 	}

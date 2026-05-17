@@ -1,57 +1,59 @@
 {
-	"tartarc2" : {
-		"name" : {
-			"plural" : "Quasits",
-			"singular" : "Quasit"
-		},
-		"advMapAmount" : {
-			"max" : 30,
-			"min" : 20
-		},
-		"faction" : "tartarus",
-		"aiValue" : 107,
-		"attack" : 5,
-		"cost" : {
-			"gold" : 70
-		},
-		"damage" : {
-			"max" : 3,
-			"min" : 1
-		},
-		"defense" : 4,
-		"fightValue" : 118,
-		"graphics" : {
-			"animation" : "tartarus/battle/creatures/Tar1up.def",
-			"map" : "tartarus/map/creatures/AVWTARU1.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar1uiconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T1uicon.bmp",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.25,
-				"attack" : 1,
-				"idle" : 10
-			}
-		},
-		"growth" : 16,
-		"hitPoints" : 4,
-		"horde" : 8,
-		"level" : 1,
-		"sound" : {
-			"attack" : "tartarus/TAR1ATTK.wav",
-			"defend" : "tartarus/TAR1DFND.wav",
-			"killed" : "tartarus/TAR1KILL.wav",
-			"move" : "tartarus/TAR1MOVE.wav",
-			"shoot" : "tartarus/TAR1SHOT.wav",
-			"wince" : "tartarus/TAR1WNCE.wav"
-		},
-		"speed" : 10,
-		"abilities" : {
-			"caster" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "misfortune",
+	"tartarc2": {
+    "name": {
+      "plural": "Quasits",
+      "singular": "Quasit"
+    },
+    "advMapAmount": {
+ "max" : 30,
+ "min" : 20
+    },
+    "faction": "tartarus",
+    "aiValue": 107,
+    "attack": 5,
+    "cost": {
+      "gold": 70
+    },
+    "damage": {
+ "max" : 3,
+ "min" : 1
+    },
+    "defense": 4,
+    "fightValue": 118,
+    "graphics": {
+      "animation": "tartarus/battle/creatures/Tar1up.def",
+      "map": "tartarus/map/creatures/AVWTARU1.def",
+      "iconSmall": "tartarus/iconsSmall/creatures/Tar1uiconS.bmp",
+      "iconLarge": "tartarus/iconsBig/creatures/T1uicon.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.25,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "growth": 16,
+    "hitPoints": 4,
+    "horde": 6,
+    "level": 1,
+    "sound": {
+      "attack": "FMLRATTK.wav",
+			"defend": "FMLRDFND.wav",
+			"killed": "FMLRKILL.wav",
+			"move": "FMLRMOVE.wav",
+			"wince": "FMLRWNCE.wav"
+    },
+    "speed": 7,
+    "abilities": {
+	"canFly": {
+        "type": "FLYING"
+      },
+	  "caster": {
+        "type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.misfortune",
 				"val" : 20
-			}
-		},
+      }
+      },
 		"stackExperience" : [
 			{
 				"bonus" : {

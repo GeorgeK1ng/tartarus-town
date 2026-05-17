@@ -1,8 +1,8 @@
 {
 	"tartarc9" : {
 		"name" : {
-			"plural" : "Arachnids",
-			"singular" : "Arachnid"
+			"plural" : "Arachnes",
+			"singular" : "Arachne"
 		},
 		"advMapAmount" : {
 			"max" : 16,
@@ -60,7 +60,7 @@
 			}
 		},
 		"growth" : 3,
-		"hitPoints" : 50,
+		"hitPoints" : 45,
 		"level" : 5,
 		"upgrades" : [
 			"tartarc10"
@@ -86,7 +86,8 @@
 					1
 				],
 				"subtype" : "tarAbility4",
-				"val" : 50
+				"addInfo" : [0, 1],
+				"val" : 30
 			}
 		},
 		"stackExperience" : [

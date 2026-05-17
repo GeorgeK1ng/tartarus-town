@@ -24,26 +24,20 @@
 		},
 		"targetCondition" : {
 			"allOf" : {},
-			"anyOf" : {},
-			"noneOf" : {
-				//				"core:bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
-			}
+			"anyOf" : {}
 		},
 
 		"graphics" : {
-			"iconBook" : "NewOldSpells/TARSPELL21.bmp",
-			"iconScroll" : "NewOldSpells/TARSPELL22.bmp",
-			"iconScenarioBonus" : "NewOldSpells/TARSPELL23.bmp",
-			"iconEffect" : "NewOldSpells/TAFrozen.bmp",
+			"iconBook" : "NewOldSpells/TARSPELL21.png",
+			"iconScroll" : "NewOldSpells/TARSPELL22.png",
+			"iconScenarioBonus" : "NewOldSpells/TARSPELL23.png",
+			"iconEffect" : "NewOldSpells/TARSPELL24.png",
 			"iconImmune" : "NewOldSpells/confusionImmune.bmp"
 		},
 
-		"animation" : {
-			"affect" : [
-				{
-					"defName" : "NewOldSpells/TAHUCI.def"
-				}
-			]
+		"animation":
+		{
+			"hit":[{ "defName" : "NewOldSpells/TAHUCI.def", "transparency" : 0.7}]
 		},
 
 		"sounds" : {

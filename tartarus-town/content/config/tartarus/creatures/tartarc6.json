@@ -81,15 +81,6 @@
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"castsBloodyMana" : {
-				"type" : "SPELLCASTER",
-				"subtype" : "tarAbility2",
-				"val" : 1
-			},
-			"castsAmount" : {
-				"type" : "CASTS",
-				"val" : 1
-			},
 			"caster" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "tarAbility1",

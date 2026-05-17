@@ -12,7 +12,7 @@
 		"aiValue" : 6835,
 		"attack" : 26,
 		"cost" : {
-			"gold" : 4400,
+			"gold" : 4500,
 			"crystal" : 2
 		},
 		"damage" : {
@@ -61,14 +61,30 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "tarability9",
 				"val" : 1
+				"description" : "{Summon Gelugon}\nSummon Gelugon in Snow and Ice terrain",
+				"icon" : "NewOldSpells/lv7.png"
 			},
 			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"spellpoints" : {
+			"spellpointsSnow" :
+			{
 				"type" : "CASTS",
-				"val" : 1
+				"val" : 1,
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["snow"]
+				} ]
+			},
+			"spellpointsIce" :
+			{
+				"type" : "CASTS",
+				"val" : 1,
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["icelands"]
+				} ]
 			},
 			"manaChannel" : {
 				"type" : "MANA_CHANNELING",
@@ -76,7 +92,7 @@
 			},
 			"extraRetaliation" : {
 				"type" : "ADDITIONAL_RETALIATION",
-				"val" : 3
+				"val" : 2
 			}
 		},
 		"stackExperience" : [
