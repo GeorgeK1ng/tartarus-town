@@ -82,11 +82,10 @@
 			"caster" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"addInfo" : [
-					1,
+					0,
 					1
 				],
 				"subtype" : "tarAbility4",
-				"addInfo" : [0, 1],
 				"val" : 30
 			}
 		},

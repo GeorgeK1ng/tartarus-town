@@ -109,7 +109,7 @@
 					]
 				},
 				"hidden": true
-			}
+			},
 			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1

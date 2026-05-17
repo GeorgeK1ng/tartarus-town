@@ -60,7 +60,7 @@
 			"teleportAllied" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "tarability9",
-				"val" : 1
+				"val" : 1,
 				"description" : "{Summon Gelugon}\nSummon Gelugon in Snow and Ice terrain",
 				"icon" : "NewOldSpells/lv7.png"
 			},
