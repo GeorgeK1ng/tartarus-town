@@ -3,8 +3,11 @@
 	"description" : "Tartarus is a town for ice demons, released in January 2022. This town is released with the dedicated map 'People mostly dies in winter'.",
 	"author" : "Ben YAN, collaborators: Kurek and Yan Liu",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.00",
+	"version" : "2.01",
 	"changelog" : {
+		"2.01" : [
+			"Fix for Bloody Tower bank"
+		],
 		"2.00" : [
 			"New update by Ben Yan"
 		],
