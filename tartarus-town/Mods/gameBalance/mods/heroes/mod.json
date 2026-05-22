@@ -1,0 +1,39 @@
+{
+	"name" : "Heroes",
+	"description" : "Change the HotA balance for Tartarus faction.",
+	"modType" : "Mechanics",
+	"author" : "Ben Yan",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.1",
+	"softDepends" : [
+		"tartarus"
+	],
+	"settings" : {
+		"heroes" : {
+			"specialtyCreatureGrowth" : 20
+		}
+	},
+	"heroes" : [
+		"config/tartarus/heroes.json"
+	],
+	"chinese" : {
+		"name" : "英雄",
+		"description" : "和HotA类似的英雄特长加成。"
+	},
+	"czech" : {
+		"name" : "Hrdinové",
+		"description" : "Změňte vyváženost HotA pro frakci Tartarus."
+	},
+	"german" : {
+		"name" : "Helden",
+		"description" : "Ändert die Balance in HotA für die Tartarus-Fraktion."
+	},
+	"french" : {
+		"name" : "Héros",
+		"description" : "Modifier l'équilibrage de HotA pour la faction des Tartarus."
+	},
+	"russian" : {
+		"name" : "Герои",
+		"description" : "Измените баланс HotA для фракции тартар."
+	}
+}

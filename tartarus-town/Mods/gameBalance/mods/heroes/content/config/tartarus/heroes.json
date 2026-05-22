@@ -1,0 +1,85 @@
+{
+	"tartarus-town:tarhero01" : {
+		"specialty" : {
+			"stepSize" : 10
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Ice Spawns and Quasits by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		}
+	},
+	"tartarus-town:tarhero03" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases Speed of any Gelugons and Supreme Gelugons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+			}
+		}
+	},
+	"tartarus-town:tarhero07" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Ice Golems or Frost Golems by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		}
+	},
+	"tartarus-town:tarhero08" : {
+		"specialty" : {
+			"stepSize" : 30
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up)."
+			}
+		}
+	},
+	"tartarus-town:tarhero09" : {
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	},
+	"tartarus-town:tarhero10" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Frost Creepers or Frost Horrors by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		}
+	},
+	"tartarus-town:tarhero11" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Furies or Stygain Furies by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		}
+	},
+	"tartarus-town:tarhero12" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Arachnes or Crystal Arachnes by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		}
+	},
+	"tartarus-town:tarhero13" : {
+		"specialty" : {
+			"bonuses" : {
+				"meteorIce" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Ice Meteor with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

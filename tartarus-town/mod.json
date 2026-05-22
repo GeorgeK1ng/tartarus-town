@@ -7,7 +7,7 @@
 	"changelog" : {
 		"2.10" : [
 			"Remove Tides of Wars hard depency, no functionality change when Tides of Wars mod is enabled",
-			"Remove New tarrains hard depency, no functionality change when New terrains mod is enabled",
+			"Remove New tarrains hard depency, default terrains is snow, New terrains mod is enabled Iceland terrain is default",
 			"Fixed all console warnings",
 			"Removed incomplete Game balace submod and when possible merged into hero configs"
 		],
