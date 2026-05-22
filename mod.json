@@ -5,6 +5,7 @@
 	"version" : "2.12",
 	"changelog" : {
 		"2.12" : [
+			"Fixed New terrains patches, dwellings are now correctly genereated on both Snow or Iceland",
 			"Removed BMPs for already existing PNGs",
 			"Converted BMP2PNG, mod is now about 30% smaller"
 		],
