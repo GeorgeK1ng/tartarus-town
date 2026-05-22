@@ -112,7 +112,7 @@
 				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "gremlin",
-					"icon" : "bonuses/hate_verminxgremlin.png"
+					"icon" : "bonuses/tartarus/hate_verminxgremlin.png"
 				},
 				"values" : [
 					0,
@@ -131,7 +131,7 @@
 				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "fortune",
-					"icon" : "bonuses/enchantedfortune.png"
+					"icon" : "bonuses/tartarus/enchantedfortune.png"
 				},
 				"values" : [
 					1,
@@ -149,7 +149,7 @@
 			{
 				"bonus" : {
 					"type" : "FLYING",
-					"icon" : "bonuses/e_fly2.png"
+					"icon" : "bonuses/tartarus/e_fly2.png"
 				},
 				"values" : [
 					false,

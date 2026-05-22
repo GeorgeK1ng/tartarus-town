@@ -1,0 +1,28 @@
+{
+	"tartarus-town:tartskill1" : {
+		"targetCondition" : {
+			"anyOf" : {
+				"tides-of-war.alternative-creatures:creature.mdtSukkub" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtLilim" : "absolute"
+			}
+		}
+	},
+
+	"tartarus-town:tartskill2" : {
+		"targetCondition" : {
+			"anyOf" : {
+				"tides-of-war.alternative-creatures:creature.mdtSukkub" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtLilim" : "absolute"
+			}
+		}
+	},
+
+	"tartarus-town:tartskill3" : {
+		"targetCondition" : {
+			"anyOf" : {
+				"tides-of-war.alternative-creatures:creature.mdtSukkub" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtLilim" : "absolute"
+			}
+		}
+	}
+}

@@ -4,6 +4,11 @@
 			"plural" : "Frost Creepers",
 			"singular" : "Frost Creeper"
 		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Ice Golems or Frost Golems by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		},
 		"advMapAmount" : {
 			"max" : 20,
 			"min" : 10

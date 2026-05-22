@@ -1,0 +1,37 @@
+{
+	"tartarus-town:tartarc8" : {
+		"abilities" : {
+			"iceBonus2" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.tarAbility2",
+				"val" : 0,
+				"hidden" : true,
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"parameters" : [
+							"icelands"
+						]
+					}
+				]
+			}
+		}
+	},
+
+	"tartarus-town:tartarcd" : {
+		"abilities" : {
+			"spellpointsIce" : {
+				"type" : "CASTS",
+				"val" : 1,
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"parameters" : [
+							"icelands"
+						]
+					}
+				]
+			}
+		}
+	}
+}

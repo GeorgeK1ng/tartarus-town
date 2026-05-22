@@ -1,0 +1,50 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"ftfuryBank" : {
+				"rewards" : {
+					"modify@1" : {
+						"guards" : {
+							"modify@3" : {
+								"type" : "mdtSukkub"
+							},
+							"modify@4" : {
+								"type" : "mdtLilim"
+							}
+						}
+					},
+					"modify@2" : {
+						"guards" : {
+							"modify@3" : {
+								"type" : "mdtSukkub"
+							},
+							"modify@4" : {
+								"type" : "mdtLilim"
+							}
+						}
+					},
+					"modify@3" : {
+						"guards" : {
+							"modify@3" : {
+								"type" : "mdtSukkub"
+							},
+							"modify@4" : {
+								"type" : "mdtLilim"
+							}
+						}
+					},
+					"modify@4" : {
+						"guards" : {
+							"modify@3" : {
+								"type" : "mdtSukkub"
+							},
+							"modify@4" : {
+								"type" : "mdtLilim"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

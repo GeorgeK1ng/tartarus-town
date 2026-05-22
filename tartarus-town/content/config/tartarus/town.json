@@ -8,7 +8,7 @@
 		"name" : "Tartarus",
 		"description" : "Tartarus is the name given to the two polar regions of the Kreegan Plane; the native inhabitants call their region Freegan. These demons, who once lived in the polar regions, were also suppressed by the Inferno forces, but after the Inferno forces moved to Eeofol, they quickly became the de facto rulers of the Kreegan Plane. Taking advantage of the defeat of the Inferno forces, they moved from Kreegan to Antagraich.",
 		"boat" : "boatNecropolis",
-		"nativeTerrain" : "icelands",
+		"nativeTerrain" : "snow",
 		"preferUndergroundPlacement" : true,
 		"puzzleMap" : {
 			"prefix" : "tartarus/puzzle-map/PUZ",
@@ -1030,7 +1030,7 @@
 					"animation" : "tartarus/town-screen/buildings/TBTAEXT6",
 					"x" : 0,
 					"y" : 0,
-					"z" : 0
+					"z" : -2
 				},
 				"mageGuild1" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAmage",
@@ -1038,7 +1038,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAmage",
 					"x" : 0,
 					"y" : 0,
-					"z" : 0
+					"z" : 1
 				},
 				"mageGuild2" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAmag2",
@@ -1046,7 +1046,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAmag2",
 					"x" : 0,
 					"y" : 0,
-					"z" : 0
+					"z" : 1
 				},
 				"mageGuild3" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAmag3",
@@ -1054,7 +1054,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAmag3",
 					"x" : 0,
 					"y" : 0,
-					"z" : 0
+					"z" : 1
 				},
 				"mageGuild4" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAmag4",
@@ -1062,7 +1062,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAmag4",
 					"x" : 0,
 					"y" : 0,
-					"z" : 0
+					"z" : 1
 				},
 				"mageGuild5" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAmag5",
@@ -1070,14 +1070,15 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAmag5",
 					"x" : 0,
 					"y" : 0,
-					"z" : 0
+					"z" : 1
 				},
 				"tavern" : {
 					"animation" : "tartarus/town-screen/buildings/TBTATVRN",
 					"area" : "tartarus/town-screen/buildings-area/TZTATVRN",
 					"border" : "tartarus/town-screen/buildings-border/TOTATVRN",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"shipyard" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAdock",
@@ -1092,49 +1093,56 @@
 					"area" : "tartarus/town-screen/buildings-area/TZTACSTL",
 					"border" : "tartarus/town-screen/buildings-border/TOTACSTL",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : -1
 				},
 				"citadel" : {
 					"animation" : "tartarus/town-screen/buildings/TBTACAS2",
 					"area" : "tartarus/town-screen/buildings-area/TZTACAS2",
 					"border" : "tartarus/town-screen/buildings-border/TOTACAS2",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : -1
 				},
 				"castle" : {
 					"animation" : "tartarus/town-screen/buildings/TBTACAS3",
 					"area" : "tartarus/town-screen/buildings-area/TZTACAS3",
 					"border" : "tartarus/town-screen/buildings-border/TOTACAS3",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : -1
 				},
 				"villageHall" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAhall",
 					"area" : "tartarus/town-screen/buildings-area/TZTAhall",
 					"border" : "tartarus/town-screen/buildings-border/TOTAhall",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"townHall" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAhal2",
 					"area" : "tartarus/town-screen/buildings-area/TZTAhal2",
 					"border" : "tartarus/town-screen/buildings-border/TOTAhal2",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"cityHall" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAhal3",
 					"area" : "tartarus/town-screen/buildings-area/TZTAhal3",
 					"border" : "tartarus/town-screen/buildings-border/TOTAhal3",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"capitol" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAhal4",
 					"area" : "tartarus/town-screen/buildings-area/TZTAhal4",
 					"border" : "tartarus/town-screen/buildings-border/TOTAhal4",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"marketplace" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAmark",
@@ -1157,7 +1165,8 @@
 					"area" : "tartarus/town-screen/buildings-area/TZTABLAK",
 					"border" : "tartarus/town-screen/buildings-border/TOTABLAK",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"horde1" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAHRD1",
@@ -1165,7 +1174,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAHRD1",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2,
+					"z" : 0,
 					"hidden" : true
 				},
 				"horde1Upgr" : {
@@ -1174,7 +1183,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAHRD2",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2,
+					"z" : 0,
 					"hidden" : true
 				},
 				"ship" : {
@@ -1191,7 +1200,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTASPEC",
 					"x" : 0,
 					"y" : 0,
-					"z" : 1
+					"z" : 2
 				},
 				"special2" : {
 					"animation" : "tartarus/town-screen/buildings/TBTASpe2",
@@ -1207,7 +1216,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAHRD3",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2,
+					"z" : 0,
 					"hidden" : true
 				},
 				"horde2Upgr" : {
@@ -1216,7 +1225,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAHRD4",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2,
+					"z" : 0,
 					"hidden" : true
 				},
 				"grail" : {
@@ -1232,35 +1241,40 @@
 					"area" : "tartarus/town-screen/buildings-area/TZTAdw_0",
 					"border" : "tartarus/town-screen/buildings-border/TOTAdw_0",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 0
 				},
 				"dwellingLvl2" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAdw_1",
 					"area" : "tartarus/town-screen/buildings-area/TZTAdw_1",
 					"border" : "tartarus/town-screen/buildings-border/TOTAdw_1",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"dwellingLvl3" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAdw_2",
 					"area" : "tartarus/town-screen/buildings-area/TZTAdw_2",
 					"border" : "tartarus/town-screen/buildings-border/TOTAdw_2",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 0
 				},
 				"dwellingLvl4" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAdw_3",
 					"area" : "tartarus/town-screen/buildings-area/TZTAdw_3",
 					"border" : "tartarus/town-screen/buildings-border/TOTAdw_3",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"dwellingLvl5" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAdw_4",
 					"area" : "tartarus/town-screen/buildings-area/TZTAdw_4",
 					"border" : "tartarus/town-screen/buildings-border/TOTAdw_4",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 0
 				},
 				"dwellingLvl6" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAdw_5",
@@ -1283,35 +1297,40 @@
 					"area" : "tartarus/town-screen/buildings-area/TZTAup_0",
 					"border" : "tartarus/town-screen/buildings-border/TOTAup_0",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 0
 				},
 				"dwellingUpLvl2" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAup_1",
 					"area" : "tartarus/town-screen/buildings-area/TZTAup_1",
 					"border" : "tartarus/town-screen/buildings-border/TOTAup_1",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"dwellingUpLvl3" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAup_2",
 					"area" : "tartarus/town-screen/buildings-area/TZTAup_2",
 					"border" : "tartarus/town-screen/buildings-border/TOTAup_2",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 0
 				},
 				"dwellingUpLvl4" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAup_3",
 					"area" : "tartarus/town-screen/buildings-area/TZTAup_3",
 					"border" : "tartarus/town-screen/buildings-border/TOTAup_3",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"dwellingUpLvl5" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAup_4",
 					"area" : "tartarus/town-screen/buildings-area/TZTAup_4",
 					"border" : "tartarus/town-screen/buildings-border/TOTAup_4",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 0
 				},
 				"dwellingUpLvl6" : {
 					"animation" : "tartarus/town-screen/buildings/TBTAup_5",

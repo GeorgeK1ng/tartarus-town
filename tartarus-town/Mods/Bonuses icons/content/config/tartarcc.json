@@ -2,13 +2,13 @@
 	"tartarus-town:tartarcc" : {
 		"abilities" : {
 			"FLYING_ARMY" : {
-				"icon" : "bonuses/e_teleport.png"
+				"icon" : "bonuses/tartarus/e_teleport.png"
 			},
 			"manaChannel" : {
-				"icon" : "bonuses/ManaChannel_iceDevils.png"
+				"icon" : "bonuses/tartarus/ManaChannel_iceDevils.png"
 			},
 			"extraRetaliation" : {
-				"icon" : "bonuses/e_retail1_iceDevil.png"
+				"icon" : "bonuses/tartarus/e_retail1_iceDevil.png"
 			}
 		},
 		"stackExperience" : [
@@ -195,7 +195,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "misfortune",
-					"icon" : "bonuses/misfortuneattack.png",
+					"icon" : "bonuses/tartarus/misfortuneattack.png",
 					"addInfo" : [
 						3,
 						0

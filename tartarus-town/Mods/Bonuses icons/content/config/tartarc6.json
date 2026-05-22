@@ -2,10 +2,10 @@
 	"tartarus-town:tartarc6" : {
 		"abilities" : {
 			"canFly" : {
-				"icon" : "bonuses/e_fly2.png"
+				"icon" : "bonuses/tartarus/e_fly2.png"
 			},
 			"caster" : {
-				"icon" : "bonuses/impairment_fury.png"
+				"icon" : "bonuses/tartarus/impairment_fury.png"
 			}
 		},
 		"stackExperience" : [

@@ -2,7 +2,7 @@
 	"tartarus-town:tartarc3" : {
 		"abilities" : {
 			"immuneToWater" : {
-				"icon" : "bonuses/damage_reduction_ice.png"
+				"icon" : "bonuses/tartarus/damage_reduction_ice.png"
 			}
 		}
 	}

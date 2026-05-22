@@ -2,7 +2,7 @@
 	"tartarus-town:tcommander" : {
 		"abilities" : {
 			"canCast" : {
-				"icon" : "bonuses/bloodlust3.png"
+				"icon" : "bonuses/tartarus/bloodlust3.png"
 			}
 		}
 	}

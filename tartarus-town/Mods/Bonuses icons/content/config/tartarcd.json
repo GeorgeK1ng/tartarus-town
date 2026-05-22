@@ -2,13 +2,13 @@
 	"tartarus-town:tartarcd" : {
 		"abilities" : {
 			"FLYING_ARMY" : {
-				"icon" : "bonuses/e_teleport.png"
+				"icon" : "bonuses/tartarus/e_teleport.png"
 			},
 			"manaChannel" : {
-				"icon" : "bonuses/ManaChannel_Beelzebubs.png"
+				"icon" : "bonuses/tartarus/ManaChannel_Beelzebubs.png"
 			},
 			"extraRetaliation" : {
-				"icon" : "bonuses/e_retail1_beelzebub.png"
+				"icon" : "bonuses/tartarus/e_retail1_beelzebub.png"
 			}
 		},
 		"stackExperience" : [
@@ -195,7 +195,7 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "berserk",
-					"icon" : "bonuses/berserkattack.png",
+					"icon" : "bonuses/tartarus/berserkattack.png",
 					"addInfo" : [
 						1,
 						0

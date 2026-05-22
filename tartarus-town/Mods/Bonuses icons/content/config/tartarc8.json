@@ -2,10 +2,10 @@
 	"tartarus-town:tartarc8" : {
 		"abilities" : {
 			"immuneToWater" : {
-				"icon" : "bonuses/damage_reduction_ice.png"
+				"icon" : "bonuses/tartarus/damage_reduction_ice.png"
 			},
 			"caster" : {
-				"icon" : "bonuses/freezingattack1.png"
+				"icon" : "bonuses/tartarus/freezingattack1.png"
 			}
 		},
 		"stackExperience" : [
@@ -120,7 +120,7 @@
 				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "iceBolt",
-					"icon" : "bonuses/iceboltattack.png",
+					"icon" : "bonuses/tartarus/iceboltattack.png",
 					"addInfo" : [
 						1,
 						2
@@ -143,7 +143,7 @@
 				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "protectWater",
-					"icon" : "bonuses/damage_reduction_water.png"
+					"icon" : "bonuses/tartarus/damage_reduction_water.png"
 				},
 				"values" : [
 					0,
