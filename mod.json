@@ -2,8 +2,12 @@
 	"name" : "Tartarus",
 	"author" : "Ben YAN, collaborators: Kurek and Yan Liu",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.11",
+	"version" : "2.12",
 	"changelog" : {
+		"2.12" : [
+			"Removed BMPs for already existing PNGs",
+			"Converted BMP2PNG, mod is now about 30% smaller"
+		],
 		"2.11" : [
 			"Moved mod to root",
 			"Turned into release package",
