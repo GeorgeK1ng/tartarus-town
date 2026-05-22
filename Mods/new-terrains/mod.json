@@ -12,7 +12,8 @@
 		"newtown-terrains.icelandterrain"
 	],
 	"objects" : [
-		"config/iceBank.json"
+		"config/iceBank.json",
+		"config/dwellings.json"
 	],
 	"creatures" : [
 		"config/creatures.json"
