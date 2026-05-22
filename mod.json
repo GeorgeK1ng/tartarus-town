@@ -1,10 +1,14 @@
 {
-	"name" : "Tartarus Town",
-	"description" : "Tartarus is a town for ice demons, released in January 2022. This town is released with the dedicated map 'People mostly dies in winter'.",
+	"name" : "Tartarus",
 	"author" : "Ben YAN, collaborators: Kurek and Yan Liu",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.10",
+	"version" : "2.11",
 	"changelog" : {
+		"2.11" : [
+			"Moved mod to root",
+			"Turned into release package",
+			"Added description.md"
+		],
 		"2.10" : [
 			"Remove Tides of Wars hard depency, no functionality change when Tides of Wars mod is enabled",
 			"Remove New tarrains hard depency, default terrains is snow, New terrains mod is enabled Iceland terrain is default",
@@ -94,28 +98,24 @@
 	"modType" : "Town",
 	"chinese" : {
 		"name" : "冰狱",
-		"description" : "冰狱是另一位面的恶魔阵营。属于地狱的另一个分支。同时英雄带有恶魔血统，也可以加强地狱生物。",
 		"translations" : [
 			"translation/tartarus/chinese.json"
 		]
 	},
 	"german" : {
 		"name" : "Tartarus",
-		"description" : "Tartarus, eine neue Stadt von Turbanellos (Ben YAN), ist eine neue Stadt für Eisdämonen. Veröffentlicht im Januar 2022.",
 		"translations" : [
 			"translation/tartarus/german.json"
 		]
 	},
 	"polish" : {
 		"name" : "Tartar",
-		"description" : "Tartar jest frakcją lodowych demonów. Mod został stworzony przez Ben Yana i opublikowany w styczniu 2022.",
 		"translations" : [
 			"translation/tartarus/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Тартарус",
-		"description" : "Новый город Тартарус — обитель ледяных демонов, выпущенный в январе 2022 года. Этот город выпущен со специальной картой «Люди в основном умирают зимой».",
 		"translations" : [
 			"translation/tartarus/russian.json"
 		]
