@@ -4,14 +4,6 @@
 			"plural" : "Frost Horrors",
 			"singular" : "Frost Horror"
 		},
-		"specialty" : {
-			"stepSize" : 30
-		},
-		"texts" : {
-			"specialty" : {
-				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up)."
-			}
-		},
 		"advMapAmount" : {
 			"max" : 16,
 			"min" : 10
