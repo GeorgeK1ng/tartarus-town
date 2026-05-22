@@ -5,7 +5,7 @@
 				"templates" : {
 					"default" : {
 						"allowedTerrains" : {
-							"insert@1" : "icelands"
+							"append" : "icelands"
 						}
 					}
 				}
@@ -14,7 +14,7 @@
 				"templates" : {
 					"default" : {
 						"allowedTerrains" : {
-							"insert@1" : "icelands"
+							"append" : "icelands"
 						}
 					}
 				}
@@ -23,7 +23,7 @@
 				"templates" : {
 					"default" : {
 						"allowedTerrains" : {
-							"insert@1" : "icelands"
+							"append" : "icelands"
 						}
 					}
 				}
@@ -32,7 +32,7 @@
 				"templates" : {
 					"default" : {
 						"allowedTerrains" : {
-							"insert@1" : "icelands"
+							"append" : "icelands"
 						}
 					}
 				}
@@ -41,7 +41,7 @@
 				"templates" : {
 					"default" : {
 						"allowedTerrains" : {
-							"insert@1" : "icelands"
+							"append" : "icelands"
 						}
 					}
 				}
@@ -50,7 +50,7 @@
 				"templates" : {
 					"default" : {
 						"allowedTerrains" : {
-							"insert@1" : "icelands"
+							"append" : "icelands"
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 				"templates" : {
 					"default" : {
 						"allowedTerrains" : {
-							"insert@1" : "icelands"
+							"append" : "icelands"
 						}
 					}
 				}

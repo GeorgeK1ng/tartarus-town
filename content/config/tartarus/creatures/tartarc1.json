@@ -4,14 +4,6 @@
 			"plural" : "Ice Spawns",
 			"singular" : "Ice Spawn"
 		},
-		"specialty" : {
-			"stepSize" : 10
-		},
-		"texts" : {
-			"specialty" : {
-				"description" : "Increases the Speed of allied Ice Spawns and Quasits by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
-			}
-		},
 		"advMapAmount" : {
 			"max" : 50,
 			"min" : 20
@@ -31,8 +23,8 @@
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/Tar1.def",
 			"map" : "tartarus/map/creatures/AVWTAR01.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar1iconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T1icon.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar1iconS.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/T1icon.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.25,

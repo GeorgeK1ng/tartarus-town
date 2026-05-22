@@ -23,8 +23,8 @@
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/Tar3.def",
 			"map" : "tartarus/map/creatures/AVWTAR03.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar3iconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T3icon.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar3iconS.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/T3icon.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.25,

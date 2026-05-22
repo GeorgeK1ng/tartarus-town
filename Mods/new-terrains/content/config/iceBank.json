@@ -5,7 +5,7 @@
 				"templates" : {
 					"base" : {
 						"allowedTerrains" : {
-							"insert@1" : "icelands"
+							"append" : "icelands"
 						}
 					}
 				}

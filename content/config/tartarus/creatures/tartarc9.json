@@ -4,18 +4,6 @@
 			"plural" : "Arachnes",
 			"singular" : "Arachne"
 		},
-		"specialty" : {
-			"bonuses" : {
-				"iceBolt" : {
-					"val" : 10
-				}
-			}
-		},
-		"texts" : {
-			"specialty" : {
-				"description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
-			}
-		},
 		"advMapAmount" : {
 			"max" : 16,
 			"min" : 8
@@ -36,8 +24,8 @@
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/Tar5.def",
 			"map" : "tartarus/map/creatures/AVWTAR05.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar5iconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T5icon.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar5iconS.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/T5icon.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.5,

@@ -23,8 +23,8 @@
 		"fightValue" : 130,
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/tcommander.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/tcommander.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/tcommander.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/tcommander.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/tcommander.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

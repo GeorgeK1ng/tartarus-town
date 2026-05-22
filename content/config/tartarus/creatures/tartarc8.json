@@ -4,14 +4,6 @@
 			"plural" : "Frost Horrors",
 			"singular" : "Frost Horror"
 		},
-		"specialty" : {
-			"stepSize" : 30
-		},
-		"texts" : {
-			"specialty" : {
-				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up)."
-			}
-		},
 		"advMapAmount" : {
 			"max" : 16,
 			"min" : 10
@@ -31,8 +23,8 @@
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/Tar4up.def",
 			"map" : "tartarus/map/creatures/AVWTARU4.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar4uiconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T4uicon.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar4uiconS.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/T4uicon.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.5,

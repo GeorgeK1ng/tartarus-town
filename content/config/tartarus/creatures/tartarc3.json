@@ -4,11 +4,6 @@
 			"plural" : "Ice Golems",
 			"singular" : "Ice Golem"
 		},
-		"texts" : {
-			"specialty" : {
-				"description" : "Increases Speed of any Gelugons and Supreme Gelugons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
-			}
-		},
 		"advMapAmount" : {
 			"max" : 30,
 			"min" : 16
@@ -28,8 +23,8 @@
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/Tar2.def",
 			"map" : "tartarus/map/creatures/AVWTAR02.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar2iconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T2icon.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar2iconS.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/T2icon.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.25,

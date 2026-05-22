@@ -27,10 +27,10 @@
 		},
 
 		"graphics" : {
-			"iconBook" : "NewOldSpells/USELESS1.bmp",
-			"iconScroll" : "NewOldSpells/USELESS2.bmp",
-			"iconScenarioBonus" : "NewOldSpells/USELESS3.bmp",
-			"iconEffect" : "NewOldSpells/icesummon.bmp"
+			"iconBook" : "NewOldSpells/USELESS1.png",
+			"iconScroll" : "NewOldSpells/USELESS2.png",
+			"iconScenarioBonus" : "NewOldSpells/USELESS3.png",
+			"iconEffect" : "NewOldSpells/icesummon.png"
 		},
 
 		"sounds" : {

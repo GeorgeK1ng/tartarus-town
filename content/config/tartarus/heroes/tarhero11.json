@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtyLarge" : "tartarus/heroes/tarhero11/skill11.bmp",
-			"specialtySmall" : "tartarus/heroes/tarhero11/skills11.bmp",
+			"specialtyLarge" : "tartarus/heroes/tarhero11/skill11.png",
+			"specialtySmall" : "tartarus/heroes/tarhero11/skills11.png",
 			"large" : "tartarus/heroes/tarhero11/tarH11.png",
 			"small" : "tartarus/heroes/tarhero11/tarH11S.png"
 		},

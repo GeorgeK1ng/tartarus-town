@@ -4,11 +4,6 @@
 			"plural" : "Frost Creepers",
 			"singular" : "Frost Creeper"
 		},
-		"texts" : {
-			"specialty" : {
-				"description" : "Increases the Speed of allied Ice Golems or Frost Golems by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
-			}
-		},
 		"advMapAmount" : {
 			"max" : 20,
 			"min" : 10
@@ -28,8 +23,8 @@
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/Tar4.def",
 			"map" : "tartarus/map/creatures/AVWTAR04.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar4iconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T4icon.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar4iconS.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/T4icon.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.5,
