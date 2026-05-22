@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtyLarge" : "tartarus/heroes/tarhero12/skill12.bmp",
-			"specialtySmall" : "tartarus/heroes/tarhero12/skills12.bmp",
-			"large" : "tartarus/heroes/tarhero12/tarH12.bmp",
-			"small" : "tartarus/heroes/tarhero12/tarH12S.bmp"
+			"specialtyLarge" : "tartarus/heroes/tarhero12/skill12.png",
+			"specialtySmall" : "tartarus/heroes/tarhero12/skills12.png",
+			"large" : "tartarus/heroes/tarhero12/tarH12.png",
+			"small" : "tartarus/heroes/tarhero12/tarH12S.png"
 		},
 
 		"spellbook" : [

@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtyLarge" : "tartarus/heroes/tarhero14/skill14.bmp",
-			"specialtySmall" : "tartarus/heroes/tarhero14/skills14.bmp",
-			"large" : "tartarus/heroes/tarhero14/tarH14.bmp",
-			"small" : "tartarus/heroes/tarhero14/tarH14S.bmp"
+			"specialtyLarge" : "tartarus/heroes/tarhero14/skill14.png",
+			"specialtySmall" : "tartarus/heroes/tarhero14/skills14.png",
+			"large" : "tartarus/heroes/tarhero14/tarH14.png",
+			"small" : "tartarus/heroes/tarhero14/tarH14S.png"
 		},
 
 		"army" : [

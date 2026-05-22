@@ -24,8 +24,8 @@
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/Tar6.def",
 			"map" : "tartarus/map/creatures/AVWTAR06.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar6iconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T6icon.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar6iconS.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/T6icon.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.5,

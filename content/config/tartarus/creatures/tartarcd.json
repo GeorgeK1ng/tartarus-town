@@ -24,8 +24,8 @@
 		"graphics" : {
 			"animation" : "tartarus/battle/creatures/Tar7up.def",
 			"map" : "tartarus/map/creatures/AVWTARU7.def",
-			"iconSmall" : "tartarus/iconsSmall/creatures/Tar7uiconS.bmp",
-			"iconLarge" : "tartarus/iconsBig/creatures/T7uicon.bmp",
+			"iconSmall" : "tartarus/iconsSmall/creatures/Tar7uiconS.png",
+			"iconLarge" : "tartarus/iconsBig/creatures/T7uicon.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.25,

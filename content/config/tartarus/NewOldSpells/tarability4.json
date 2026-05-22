@@ -35,10 +35,10 @@
 		},
 
 		"graphics" : {
-			"iconBook" : "NewOldSpells/Useless1.bmp",
-			"iconScroll" : "NewOldSpells/Useless2.bmp",
-			"iconScenarioBonus" : "NewOldSpells/Useless3.bmp",
-			"iconEffect" : "NewOldSpells/frozenWeb.bmp"
+			"iconBook" : "NewOldSpells/Useless1.png",
+			"iconScroll" : "NewOldSpells/Useless2.png",
+			"iconScenarioBonus" : "NewOldSpells/Useless3.png",
+			"iconEffect" : "NewOldSpells/frozenWeb.png"
 		},
 
 		"sounds" : {

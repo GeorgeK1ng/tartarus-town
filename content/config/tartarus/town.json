@@ -2,8 +2,8 @@
 	"tartarus" : {
 		"alignment" : "evil",
 		"creatureBackground" : {
-			"120px" : "tartarus/creature-bg-120px.bmp",
-			"130px" : "tartarus/creature-bg-130px.bmp"
+			"120px" : "tartarus/creature-bg-120px.png",
+			"130px" : "tartarus/creature-bg-130px.png"
 		},
 		"name" : "Tartarus",
 		"description" : "Tartarus is the name given to the two polar regions of the Kreegan Plane; the native inhabitants call their region Freegan. These demons, who once lived in the polar regions, were also suppressed by the Inferno forces, but after the Inferno forces moved to Eeofol, they quickly became the de facto rulers of the Kreegan Plane. Taking advantage of the defeat of the Inferno forces, they moved from Kreegan to Antagraich.",
@@ -744,7 +744,7 @@
 					"tartarcd"
 				] //Baron, Beelzebub
 			],
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE.png",
 			"guildSpells" : {
 				"bless" : 0,
 				"bloodlust" : 10,
@@ -814,7 +814,7 @@
 				"sacrifice" : 11,
 				"waterElemental" : 15
 			},
-			"guildWindow" : "tartarus/town-screen/mage-guild.bmp",
+			"guildWindow" : "tartarus/town-screen/mage-guild.png",
 			"hallBackground" : "TPTHBKDG",
 			"horde" : [
 				0,
@@ -824,22 +824,22 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "tartarus/icons/hall-small.bmp",
-						"large" : "tartarus/icons/hall-big.bmp"
+						"small" : "tartarus/icons/hall-small.png",
+						"large" : "tartarus/icons/hall-big.png"
 					},
 					"built" : {
-						"small" : "tartarus/icons/hall-builded-small.bmp",
-						"large" : "tartarus/icons/hall-builded-big.bmp"
+						"small" : "tartarus/icons/hall-builded-small.png",
+						"large" : "tartarus/icons/hall-builded-big.png"
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "tartarus/icons/fort-small.bmp",
-						"large" : "tartarus/icons/fort-big.bmp"
+						"small" : "tartarus/icons/fort-small.png",
+						"large" : "tartarus/icons/fort-big.png"
 					},
 					"built" : {
-						"small" : "tartarus/icons/fort-builded-small.bmp",
-						"large" : "tartarus/icons/fort-builded-big.bmp"
+						"small" : "tartarus/icons/fort-builded-small.png",
+						"large" : "tartarus/icons/fort-builded-big.png"
 					}
 				}
 			},
@@ -1350,7 +1350,7 @@
 				}
 			},
 			"tavernVideo" : "tarTav.BIK",
-			"townBackground" : "tartarus/town-screen/background.bmp",
+			"townBackground" : "tartarus/town-screen/background.png",
 			"hallSlots" : [
 				[
 					[

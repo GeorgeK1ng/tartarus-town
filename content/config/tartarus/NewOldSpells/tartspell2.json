@@ -32,7 +32,7 @@
 			"iconScroll" : "NewOldSpells/TARSPELL22.png",
 			"iconScenarioBonus" : "NewOldSpells/TARSPELL23.png",
 			"iconEffect" : "NewOldSpells/TARSPELL24.png",
-			"iconImmune" : "NewOldSpells/confusionImmune.bmp"
+			"iconImmune" : "NewOldSpells/confusionImmune.png"
 		},
 
 		"animation" : {
