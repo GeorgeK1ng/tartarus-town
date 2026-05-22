@@ -3,8 +3,14 @@
 	"description" : "Tartarus is a town for ice demons, released in January 2022. This town is released with the dedicated map 'People mostly dies in winter'.",
 	"author" : "Ben YAN, collaborators: Kurek and Yan Liu",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.01",
+	"version" : "2.10",
 	"changelog" : {
+		"2.10" : [
+			"Remove Tides of Wars hard depency, no functionality change when Tides of Wars mod is enabled",
+			"Remove New tarrains hard depency, no functionality change when New terrains mod is enabled",
+			"Fixed all console warnings",
+			"Removed incomplete Game balace submod and when possible merged into hero configs"
+		],
 		"2.01" : [
 			"Fix for Bloody Tower bank"
 		],
@@ -114,11 +120,6 @@
 			"translation/tartarus/russian.json"
 		]
 	},
-	"depends" : [
-		"tides-of-war",
-		"tides-of-war.alternative-creatures",
-		"newtown-terrains.icelandterrain"
-	],
 	"factions" : [
 		"config/tartarus/town"
 	],

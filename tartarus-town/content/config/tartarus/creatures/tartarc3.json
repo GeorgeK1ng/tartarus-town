@@ -4,6 +4,11 @@
 			"plural" : "Ice Golems",
 			"singular" : "Ice Golem"
 		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases Speed of any Gelugons and Supreme Gelugons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+			}
+		},
 		"advMapAmount" : {
 			"max" : 30,
 			"min" : 16

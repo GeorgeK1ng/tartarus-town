@@ -52,11 +52,11 @@
 							},
 							{
 								"amount" : 10,
-								"type" : "mdtSukkub"
+								"type" : "tartarc5"
 							},
 							{
 								"amount" : 10,
-								"type" : "mdtLilim"
+								"type" : "tartarc6"
 							}
 						],
 						"resources" : {
@@ -83,11 +83,11 @@
 							},
 							{
 								"amount" : 15,
-								"type" : "mdtSukkub"
+								"type" : "tartarc5"
 							},
 							{
 								"amount" : 15,
-								"type" : "mdtLilim"
+								"type" : "tartarc6"
 							}
 						],
 						"resources" : {
@@ -114,11 +114,11 @@
 							},
 							{
 								"amount" : 20,
-								"type" : "mdtSukkub"
+								"type" : "tartarc5"
 							},
 							{
 								"amount" : 20,
-								"type" : "mdtLilim"
+								"type" : "tartarc6"
 							}
 						],
 						"resources" : {
@@ -145,11 +145,11 @@
 							},
 							{
 								"amount" : 25,
-								"type" : "mdtSukkub"
+								"type" : "tartarc5"
 							},
 							{
 								"amount" : 25,
-								"type" : "mdtLilim"
+								"type" : "tartarc6"
 							}
 						],
 						"resources" : {

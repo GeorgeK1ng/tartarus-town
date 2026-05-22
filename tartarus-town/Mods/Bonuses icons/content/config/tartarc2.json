@@ -2,10 +2,10 @@
 	"tartarus-town:tartarc2" : {
 		"abilities" : {
 			"canFly" : {
-				"icon" : "bonuses/e_fly2.png"
+				"icon" : "bonuses/tartarus/e_fly2.png"
 			},
 			"caster" : {
-				"icon" : "bonuses/misfortuneattack.png"
+				"icon" : "bonuses/tartarus/misfortuneattack.png"
 			}
 		},
 		"stackExperience" : [
@@ -120,7 +120,7 @@
 				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "masterGremlin",
-					"icon" : "bonuses/hate_quasitxmastergremlin.png"
+					"icon" : "bonuses/tartarus/hate_quasitxmastergremlin.png"
 				},
 				"values" : [
 					0,

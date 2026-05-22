@@ -2,7 +2,7 @@
 	"tartarus-town:tartarc9" : {
 		"abilities" : {
 			"caster" : {
-				"icon" : "bonuses/crystalCobweb.png"
+				"icon" : "bonuses/tartarus/crystalCobweb.png"
 			}
 		}
 	}

@@ -1,0 +1,112 @@
+{
+	"tartarus-town:tartskill1" : {
+		"targetCondition" : {
+			"anyOf" : {
+				//"creature.imp" : "absolute",
+				//"creature.familiar" : "absolute",
+				//"creature.gog" : "absolute",
+				//"creature.magog" : "absolute",
+				//"creature.hellHound" : "absolute",
+				//"creature.cerberus" : "absolute",
+				//"creature.demon" : "absolute",
+				//"creature.hornedDemon" : "absolute",
+				//"creature.pitFiend" : "absolute",
+				//"creature.pitLord" : "absolute",
+				//"creature.efreet" : "absolute",
+				//"creature.efreetSultan" : "absolute",
+				//"creature.devil" : "absolute",
+				//"creature.archDevil" : "absolute",
+				//"tartarus-town:creature.tartarc1" : "absolute",
+				//"tartarus-town:creature.tartarc2" : "absolute",
+				//"tartarus-town:creature.tartarc3" : "absolute",
+				//"tartarus-town:creature.tartarc4" : "absolute",
+				//"tartarus-town:creature.tartarc5" : "absolute",
+				//"tartarus-town:creature.tartarc6" : "absolute",
+				//"tartarus-town:creature.tartarc7" : "absolute",
+				//"tartarus-town:creature.tartarc8" : "absolute",
+				//"tartarus-town:creature.tartarc9" : "absolute",
+				//"tartarus-town:creature.tartarc10" : "absolute",
+				//"tartarus-town:creature.tartarca" : "absolute",
+				//"tartarus-town:creature.tartarcab" : "absolute",
+				//"tartarus-town:creature.tartarcc" : "absolute",
+				//"tartarus-town:creature.tartarcd" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtSukkub" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtLilim" : "absolute"
+			}
+		}
+	},
+
+	"tartarus-town:tartskill2" : {
+		"targetCondition" : {
+			"anyOf" : {
+				//"creature.imp" : "absolute",
+				//"creature.familiar" : "absolute",
+				//"creature.gog" : "absolute",
+				//"creature.magog" : "absolute",
+				//"creature.hellHound" : "absolute",
+				//"creature.cerberus" : "absolute",
+				//"creature.demon" : "absolute",
+				//"creature.hornedDemon" : "absolute",
+				//"creature.pitFiend" : "absolute",
+				//"creature.pitLord" : "absolute",
+				//"creature.efreet" : "absolute",
+				//"creature.efreetSultan" : "absolute",
+				//"creature.devil" : "absolute",
+				//"creature.archDevil" : "absolute",
+				//"tartarus-town:creature.tartarc1" : "absolute",
+				//"tartarus-town:creature.tartarc2" : "absolute",
+				//"tartarus-town:creature.tartarc3" : "absolute",
+				//"tartarus-town:creature.tartarc4" : "absolute",
+				//"tartarus-town:creature.tartarc5" : "absolute",
+				//"tartarus-town:creature.tartarc6" : "absolute",
+				//"tartarus-town:creature.tartarc7" : "absolute",
+				//"tartarus-town:creature.tartarc8" : "absolute",
+				//"tartarus-town:creature.tartarc9" : "absolute",
+				//"tartarus-town:creature.tartarc10" : "absolute",
+				//"tartarus-town:creature.tartarca" : "absolute",
+				//"tartarus-town:creature.tartarcab" : "absolute",
+				//"tartarus-town:creature.tartarcc" : "absolute",
+				//"tartarus-town:creature.tartarcd" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtSukkub" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtLilim" : "absolute"
+			}
+		}
+	},
+
+	"tartarus-town:tartskill3" : {
+		"targetCondition" : {
+			"anyOf" : {
+				//"creature.imp" : "absolute",
+				//"creature.familiar" : "absolute",
+				//"creature.gog" : "absolute",
+				//"creature.magog" : "absolute",
+				//"creature.hellHound" : "absolute",
+				//"creature.cerberus" : "absolute",
+				//"creature.demon" : "absolute",
+				//"creature.hornedDemon" : "absolute",
+				//"creature.pitFiend" : "absolute",
+				//"creature.pitLord" : "absolute",
+				//"creature.efreet" : "absolute",
+				//"creature.efreetSultan" : "absolute",
+				//"creature.devil" : "absolute",
+				//"creature.archDevil" : "absolute",
+				//"tartarus-town:creature.tartarc1" : "absolute",
+				//"tartarus-town:creature.tartarc2" : "absolute",
+				//"tartarus-town:creature.tartarc3" : "absolute",
+				//"tartarus-town:creature.tartarc4" : "absolute",
+				//"tartarus-town:creature.tartarc5" : "absolute",
+				//"tartarus-town:creature.tartarc6" : "absolute",
+				//"tartarus-town:creature.tartarc7" : "absolute",
+				//"tartarus-town:creature.tartarc8" : "absolute",
+				//"tartarus-town:creature.tartarc9" : "absolute",
+				//"tartarus-town:creature.tartarc10" : "absolute",
+				//"tartarus-town:creature.tartarca" : "absolute",
+				//"tartarus-town:creature.tartarcab" : "absolute",
+				//"tartarus-town:creature.tartarcc" : "absolute",
+				//"tartarus-town:creature.tartarcd" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtSukkub" : "absolute",
+				"tides-of-war.alternative-creatures:creature.mdtLilim" : "absolute"
+			}
+		}
+	}
+}

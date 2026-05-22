@@ -18,8 +18,7 @@
 							"VAB"
 						],
 						"allowedTerrains" : [
-							"snow",
-							"icelands"
+							"snow"
 						]
 					}
 				},
@@ -42,8 +41,7 @@
 							"VAB"
 						],
 						"allowedTerrains" : [
-							"snow",
-							"icelands"
+							"snow"
 						]
 					}
 				},
@@ -66,8 +64,7 @@
 							"VAB"
 						],
 						"allowedTerrains" : [
-							"snow",
-							"icelands"
+							"snow"
 						]
 					}
 				},
@@ -88,8 +85,7 @@
 							"VBA"
 						],
 						"allowedTerrains" : [
-							"snow",
-							"icelands"
+							"snow"
 						]
 					}
 				},
@@ -117,8 +113,7 @@
 							"VAB"
 						],
 						"allowedTerrains" : [
-							"snow",
-							"icelands"
+							"snow"
 						]
 					}
 				},
@@ -149,8 +144,7 @@
 							"VBA"
 						],
 						"allowedTerrains" : [
-							"snow",
-							"icelands"
+							"snow"
 						]
 					}
 				},
@@ -178,8 +172,7 @@
 							"VAB"
 						],
 						"allowedTerrains" : [
-							"snow",
-							"icelands"
+							"snow"
 						]
 					}
 				},

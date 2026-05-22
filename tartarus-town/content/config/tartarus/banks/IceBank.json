@@ -17,8 +17,7 @@
 							"VBA"
 						],
 						"allowedTerrains" : [
-							"snow",
-							"icelands"
+							"snow"
 						]
 					}
 				},
