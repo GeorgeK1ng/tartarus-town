@@ -245,5 +245,15 @@
 	"spell.tartarus-town.tartarusMoatTrigger.name" : "冰锥",
 	"spell.tartarus-town.tartskill1.name" : "恶魔之力",
 	"spell.tartarus-town.tartskill2.name" : "恶魔之力",
-	"spell.tartarus-town.tartskill3.name" : "恶魔之力"
+	"spell.tartarus-town.tartskill3.name" : "恶魔之力",
+	"creatures.tartarus-town.tartarc3.bonus.fireShieldVulnerablity" : "{害怕火系}\n受到火系魔法的伤害翻倍。",
+	"creatures.tartarus-town.tartarc4.bonus.fireShieldVulnerablity" : "{害怕火系}\n受到火系魔法的伤害翻倍。",
+	"creatures.tartarus-town.tartarc7.bonus.fireShieldVulnerablity" : "{害怕火系}\n受到火系魔法的伤害翻倍。",
+	"creatures.tartarus-town.tartarc8.bonus.fireShieldVulnerablity" : "{害怕火系}\n受到火系魔法的伤害翻倍。",
+	"creatures.tartarus-town.tartarca.bonus.fireShieldVulnerablity" : "{害怕火系}\n受到火系魔法的伤害翻倍。",
+	"creatures.tartarus-town.tartarcab.bonus.fireShieldVulnerablity" : "{害怕火系}\n受到火系魔法的伤害翻倍。",
+	"creatures.tartarus-town.tartarc8.bonus.armageddonVulnerablity" : "{冰雪之盾}\n在雪地和冰原地形中防御力+5。",
+	"creatures.tartarus-town.tartarcd.bonus.teleportAllied" : "{召唤冰魔}\n在雪地和冰原地形中可以召唤冰魔。",
+	"creatures.tartarus-town.tartarca.bonus.infernoVulnerablity" : "{痛苦滋味}\n该生物每次受到伤害时，下次攻击的伤害将提升 15%，在每次主动攻击后重置。",
+	"creatures.tartarus-town.tartarcab.bonus.infernoVulnerablity" : "{痛苦滋味}\n该生物每次受到伤害时，下次攻击的伤害将提升 15%，在每次主动攻击后重置。"
 }
