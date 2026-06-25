@@ -104,25 +104,25 @@
 	"chinese" : {
 		"name" : "冰狱",
 		"translations" : [
-			"translation/tartarus/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"german" : {
 		"name" : "Tartarus",
 		"translations" : [
-			"translation/tartarus/german.json"
+			"translation/german.json"
 		]
 	},
 	"polish" : {
 		"name" : "Tartar",
 		"translations" : [
-			"translation/tartarus/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Тартарус",
 		"translations" : [
-			"translation/tartarus/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"factions" : [
