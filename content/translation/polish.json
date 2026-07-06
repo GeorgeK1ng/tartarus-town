@@ -244,5 +244,12 @@
 	"spell.tartarus-town.tartskill2.name": "Demoniczna Krew",
 	"spell.tartarus-town.tartskill3.name": "Demoniczna Krew",
 	"mapObject.tartarus-town.creatureBank.ftIceBank.name": "Kryjówka Lodowych Pomiotów",
-	"mapObject.tartarus-town.creatureBank.ftfuryBank.name": "Krwawa Baszta"
+	"mapObject.tartarus-town.creatureBank.ftfuryBank.name": "Krwawa Baszta",
+	"creatures.tartarus-town.tartarc3.bonus.fireShieldVulnerablity": "{Wrażliwość na ogień}\nPodwojone obrażenia od magii ognia",
+	"creatures.tartarus-town.tartarc4.bonus.fireShieldVulnerablity": "{Wrażliwość na ogień}\nPodwojone obrażenia od magii ognia",
+	"creatures.tartarus-town.tartarc7.bonus.fireShieldVulnerablity": "{Wrażliwość na ogień}\nPodwojone obrażenia od magii ognia",
+	"creatures.tartarus-town.tartarc8.bonus.armageddonVulnerablity": "{Tarcza lodu}\n+5 obrony podczas walk na lodzie i śniegu",
+	"creatures.tartarus-town.tartarc8.bonus.fireShieldVulnerablity": "{Wrażliwość na ogień}\nPodwojone obrażenia od magii ognia",
+	"creatures.tartarus-town.tartarca.bonus.fireShieldVulnerablity": "{Wrażliwość na ogień}\nPodwojone obrażenia od magii ognia",
+	"creatures.tartarus-town.tartarcab.bonus.fireShieldVulnerablity": "{Wrażliwość na ogień}\nPodwojone obrażenia od magii ognia"
 }
